@@ -1,0 +1,18 @@
+:root{
+    background: #fffef9;
+    --lite_gray: #707070;
+    --orange: #fc6140;
+}
+
+.nav-link{
+    color: var(--lite_gray);
+}
+.nav-link:hover{
+    color: var(--orange);
+}
+
+
+.navbar-brand > img{
+    width: 9em;
+    height: auto;
+}
