@@ -1,21 +1,40 @@
 :root{
-    background: #fffef9;
-    --lite_gray: #707070;
-    --orange: #fc6140;
+  background: #fffef9;
+  --lite_gray: #707070;
+  --orange: #fc6140;
+  --bs-body-bg: #f3f0e300;
+  --white: #fff;
+  --h1: #524964;
 }
 
 .nav-link{
-    color: var(--lite_gray);
+  color: var(--lite_gray);
 }
 .nav-link:hover{
-    color: var(--orange);
+  color: var(--orange);
 }
 
+.navbar{
+  border-bottom: 0.5px solid #fc614052;
+}
+.navbar-toggler:focus{
+  box-shadow: none;
+}
 
 .navbar-brand > img{
   width: 9em;
   height: auto;
   margin: 0 9rem 0 0 ;
+}
+.button-con{
+  width: 75px;
+  height: 40px;
+  border-radius: 0.4em;
+  background: var(--orange);
+  color: var(--white);
+}
+.button-con:hover{
+  color: var(--white);
 }
 .heading{
     /* padding: 30px 0; */
