@@ -91,6 +91,7 @@
   }
   .card {
     margin-bottom: 40px;
+    border:0px;
   }
   .card-title, .usecasetitle{
     margin-bottom: 1.5rem;
@@ -99,4 +100,8 @@
   .cardtitle{
     color:#fc6140;
     text-decoration: none;
+  }
+  .subheading{
+    padding-left: 15rem;
+    padding-right: 15rem;;
   }
