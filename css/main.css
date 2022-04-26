@@ -13,14 +13,60 @@
 
 
 .navbar-brand > img{
-    width: 9em;
-    height: auto;
+  width: 9em;
+  height: auto;
+  margin: 0 9rem 0 0 ;
 }
 .heading{
     /* padding: 30px 0; */
   text-align: center;
 }
-
+.home{
+  margin: 0 75px;
+}
+.home-title{
+  margin: 0 20px;
+  color: var(--h1);
+}
+.partner-logo{
+  padding: 0 50px;
+}
+.partner-title{
+  position: relative;
+  text-align: center;
+  width: 100%;
+}
+.partner-title span{
+  display: inline-block;
+  position: relative;
+}
+.arrow{
+  position: absolute;
+  left: -80px;
+  top: -37px;
+  transform: rotate(123deg);
+}
+.logo-wrap{
+  width: 100%;
+  max-width: 1054px;
+  margin: 0 auto;
+  margin-top: 35px;
+}
+.logo-grp-desk{
+  display: flex;
+  flex-wrap: wrap;
+  align-content: center;
+  justify-content: space-between;
+  align-items: center;
+}
+.logo{
+  display: inline-block;
+}
+.logo img{
+  height: auto;
+  width: 100%;
+  max-width: 115px;
+}
 .videos_tabs{
     display: flex;
     align-items: center;
