@@ -16,3 +16,41 @@
     width: 9em;
     height: auto;
 }
+.heading{
+    /* padding: 30px 0; */
+  text-align: center;
+}
+
+.videos_tabs{
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    position: relative;
+    z-index: 99;
+
+   
+  }
+  .videos_tabs .tab-content{
+    flex: 0 0 70%;
+    max-width: 70%;
+  
+  }
+  .nav-tabs{
+    border: 1px solid black;
+  }
+  .tab-content .video{
+    height: 24rem;
+    width: 58rem;
+    /* border: 1px solid black; */
+  }
+  .card {
+    margin-bottom: 40px;
+  }
+  .card-title, .usecasetitle{
+    margin-bottom: 1.5rem;
+    margin-top:0.5rem;
+  }
+  .cardtitle{
+    color:#fc6140;
+    text-decoration: none;
+  }
