@@ -37,7 +37,6 @@
   color: var(--white);
 }
 .heading{
-    /* padding: 30px 0; */
   text-align: center;
 }
 .home{
@@ -123,4 +122,31 @@
   .subheading{
     padding-left: 15rem;
     padding-right: 15rem;;
+  }
+  .card-footer {
+    background-color: #3F3350;
+    color: #fff;
+  }
+
+  .footer-list{
+    list-style-type:none;
+    text-decoration: none!important;
+    
+  }
+  ul {
+    padding-left: 0px!important;
+
+  }
+  .footer-menu{
+    padding-top: 8rem;
+    padding-left: 0rem;
+}
+.heading{
+  text-align: center;
+}
+.footercontact{
+  padding-top: 10rem;
+}
+  .social-icons{
+    text-align: center;
   }
