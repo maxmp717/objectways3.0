@@ -926,29 +926,76 @@ version="1.1"><metadata
         <h2>Our Custom Tools </h2>
         <span class="border_bar"></span>
       </div>
-      <div class="d-flex align-items-start videos_tabs">
-        <div class="nav flex-column nav-pills me-4 "  aria-orientation="vertical">
-          <a class="nav-link active"  data-bs-toggle="pill" href="#home" role="tab" aria-controls="v-pills-home" aria-selected="true"><i class="fa-light fa-camera-viewfinder fa-xl"></i> Video Annotation</a>
-          <a class="nav-link"  data-bs-toggle="pill" href="#home" role="tab" aria-controls="v-pills-profile" aria-selected="false"><i class="fa-light fa-file-invoice fa-xl"></i>  PDF Annotation</a>
-          <a class="nav-link"  data-bs-toggle="pill" href="#home" role="tab" aria-controls="v-pills-messages" aria-selected="false"><i class="fa-light fa-brain-circuit fa-xl"></i>  NLP</a>
-          <a class="nav-link"  data-bs-toggle="pill" href="#home" role="tab" aria-controls="v-pills-settings" aria-selected="false"><i class="fa-light fa-address-card fa-xl"></i>  OCR</a>
-          <a class="nav-link"  data-bs-toggle="pill" href="#home" role="tab" aria-controls="v-pills-profile" aria-selected="false"><i class="fa-light fa-chart-pyramid fa-xl"></i> Hierarchical Detection</a>
-          <a class="nav-link"  data-bs-toggle="pill" href="#home" role="tab" aria-controls="v-pills-messages" aria-selected="false"><i class="fa-light fa-image-polaroid-user fa-xl"></i> Pose Estimation</a>
-          <a class="nav-link"  data-bs-toggle="pill" href="#home" role="tab" aria-controls="v-pills-settings" aria-selected="false"><i class="fa-light fa-file-audio fa-xl"></i>  Audio Annotation</a>
-          <a class="nav-link"  data-bs-toggle="pill" href="#home" role="tab" aria-controls="v-pills-settings" aria-selected="false"><i class="fa-light fa-bezier-curve fa-xl"></i>  Spline</a> 
+      <div class="video-tabs">
+        <ul class="nav nav-tabs">
+          <li class="nav-item">
+            <a data-bs-toggle="tab"class="active"href="#video"><i class="fa-light fa-camera-viewfinder fa-xl"></i> Video Annotation</a>
+          </li>
+          <li class="nav-item">
+            <a data-bs-toggle="tab" href="#pdf"><i class="fa-light fa-file-invoice fa-xl"></i> PDF Annotation</a>
+          </li>
+          <li class="nav-item">
+            <a data-bs-toggle="tab" href="#nlp"><i class="fa-light fa-brain-circuit fa-xl"></i> NLP</a>
+          </li>
+          <li class="nav-item">
+            <a data-bs-toggle="tab" href="#ocr"><i class="fa-light fa-address-card fa-xl"></i> OCR</a>
+          </li>
+          <li class="nav-item">
+            <a data-bs-toggle="tab" href="#hire"><i class="fa-light fa-chart-pyramid fa-xl"></i> Hierarchial Detection</a>
+          </li>
+          <li class="nav-item">
+            <a data-bs-toggle="tab" href="#pose"><i class="fa-light fa-image-polaroid-user fa-xl"></i> Pose Estimation</a>
+          </li>
+          <li class="nav-item">
+            <a data-bs-toggle="tab" href="#audio"><i class="fa-light fa-file-audio fa-xl"></i> Audio Annotation</a>
+          </li>
+          <li class="nav-item">
+            <a data-bs-toggle="tab" href="#spline"><i class="fa-light fa-bezier-curve fa-xl"></i> Spline</a>
+          </li>
+        </ul>
+        <div class="tab-content">
+          <div id="video" class="tab-pane fade show active">
+            <video autoplay muted loop controls>
+              <source src="vid/video.mov" type="video/mp4">
+            </video>
+          </div>
+          <div id="pdf" class="tab-pane fade">
+            <video autoplay muted loop>
+              <source src="vid/PDF.mp4" type="video/mp4"> 
+            </video>
+          </div>
+          <div id="nlp" class="tab-pane fade">
+            <video autoplay muted loop>
+              <source src="vid/NLP1.mov" type="video/mp4">
+            </video>
+          </div>
+          <div id="ocr" class="tab-pane fade">
+            <video autoplay muted loop>
+              <source src="vid/ocr_final.mp4" type="video/mp4">
+            </video>
+          </div>
+          <div id="hire" class="tab-pane fade">
+            <video autoplay muted loop>
+              <source src="vid/hierarchy.mp4" type="video/mp4">
+            </video>
+          </div>
+          <div id="pose" class="tab-pane fade">
+            <video autoplay muted loop>
+              <source src="vid/pose_estimation.mp4" type="video/mp4">
+            </video>
+          </div>
+          <div id="audio" class="tab-pane fade">
+            <video autoplay muted loop>
+              <source src="vid/audio.mov" type="video/mp4">
+            </video>
+          </div>
+          <div id="spline" class="tab-pane fade">
+            <video autoplay muted loop>
+              <source src="vid/spline1.mp4" type="video/mp4">
+            </video>
+          </div>
         </div>
-        <div class="tab-content" id="v-pills-tabContent">
-                <div id="home" class="tab-pane fade in active">
-                  <video autoplay="" muted="" loop="">
-                     <!-- <source src="./videos/NLP1.mov" type="video/mp4">  --> -->
-                  </video>
-                </div>
-            </div>
-          <!-- <div class="tab-pane fade show active" id="v-pills-home" role="tabpanel" aria-labelledby="v-pills-home-tab">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Officiis aperiam accusantium facere minus totam, id cumque sequi ea harum necessitatibus animi inventore, sunt iste dicta libero consectetur ab eligendi repudiandae.</div>
-          <div class="tab-pane fade" id="v-pills-profile" role="tabpanel" aria-labelledby="v-pills-profile-tab">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Id ducimus veniam optio porro impedit amet odio aliquam officia non nobis quisquam soluta repudiandae, earum nulla.</div>
-          <div class="tab-pane fade" id="v-pills-messages" role="tabpanel" aria-labelledby="v-pills-messages-tab">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Repellat, dolores blanditiis labore praesentium sunt aperiam adipisci voluptatem minus tempore voluptatibus, aspernatur illum temporibus! Rem, quidem? Reiciendis ex explicabo perferendis nobis.</div>
-          <div class="tab-pane fade" id="v-pills-settings" role="tabpanel" aria-labelledby="v-pills-settings-tab">Lorem ipsum dolor sit amet consectetur adipisicing elit. Harum consectetur voluptates inventore adipisci quaerat asperiores ab blanditiis excepturi sunt, assumenda est ad voluptatum, iste provident?</div> -->
-        </div>
+      </div>
       </div>
     </div>
 
