@@ -36,9 +36,6 @@
 .button-con:hover{
   color: var(--white);
 }
-.heading{
-  text-align: center;
-}
 .home{
   margin: 0 75px;
 }
@@ -84,7 +81,8 @@
   height: auto;
   width: 100%;
   max-width: 115px;
-}
+ }  
+  /* ourcustomtool start */
 .videos_tabs{
     display: flex;
     align-items: center;
@@ -107,6 +105,7 @@
     width: 58rem;
     /* border: 1px solid black; */
   }
+  /* end */
   .card {
     margin-bottom: 40px;
     border:0px;
@@ -116,7 +115,7 @@
     margin-top:0.5rem;
   }
   .cardtitle{
-    color:#fc6140;
+    color: var(--orange);
     text-decoration: none;
   }
   .subheading{
@@ -125,28 +124,23 @@
   }
   .card-footer {
     background-color: #3F3350;
-    color: #fff;
+    color: var(--white);
   }
-
-  .footer-list{
-    list-style-type:none;
+  .footer-list a{
+    color: var(--white);
     text-decoration: none!important;
-    
+  }
+  .footer-list{
+    list-style-type:none!important;
   }
   ul {
-    padding-left: 0px!important;
-
+    padding-left: 0px!important; 
   }
   .footer-menu{
     padding-top: 8rem;
     padding-left: 0rem;
 }
-.heading{
-  text-align: center;
-}
 .footercontact{
   padding-top: 10rem;
 }
-  .social-icons{
-    text-align: center;
-  }
+  
