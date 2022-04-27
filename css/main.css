@@ -113,12 +113,15 @@
   .card-title, .usecasetitle{
     margin-bottom: 1.5rem;
     margin-top:0.5rem;
+    
   }
   .cardtitle{
     color: var(--orange);
     text-decoration: none;
+    
   }
   .subheading{
+    color: var(--h1);
     padding-left: 15rem;
     padding-right: 15rem;;
   }
@@ -136,11 +139,18 @@
   ul {
     padding-left: 0px!important; 
   }
-  .footer-menu{
+  .footer-menu h5 {
     padding-top: 8rem;
     padding-left: 0rem;
+    color: var(--h1);
+}
+.rightmenu,.rightmenu a{
+  color: var(--h1);
 }
 .footercontact{
   padding-top: 10rem;
+}
+.social-icons a{
+  color: var(--orange)!important;
 }
   
