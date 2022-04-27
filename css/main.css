@@ -175,8 +175,9 @@ a{
   display: block;
   color: var(--lite_gray);
   border: 1px solid var(--lite_orange);
-  padding: 15px 50px;
+  padding: 16px 25px;
   font-size: 17px;
+  
 }
 .video-tabs>ul>li>a>.fa-light{
   color: var(--orange)
@@ -195,7 +196,7 @@ a{
 }
 .video-tabs>ul{
   display: block;
-  flex: 0 0 30%;
+  /* flex: 0 0 30%; */
   max-width: 30%;
 }
 .tab-content{
