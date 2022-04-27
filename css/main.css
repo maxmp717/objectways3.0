@@ -131,13 +131,13 @@
   }
   .footer-list a{
     color: var(--white);
-    text-decoration: none!important;
+    text-decoration: none;
   }
   .footer-list{
-    list-style-type:none!important;
+    list-style-type:none;
   }
   ul {
-    padding-left: 0px!important; 
+    padding-left: 0px; 
   }
   .footer-menu h5 {
     padding-top: 8rem;
@@ -151,6 +151,6 @@
   padding-top: 10rem;
 }
 .social-icons a{
-  color: var(--orange)!important;
+  color: var(--orange);
 }
   
