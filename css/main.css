@@ -84,31 +84,7 @@ a{
   height: auto;
   width: 100%;
   max-width: 115px;
- }  
-  /* ourcustomtool start */
-.videos_tabs{
-    display: flex;
-    align-items: center;
-    flex-wrap: wrap;
-    position: relative;
-    z-index: 99;
-
-   
-  }
-  .videos_tabs .tab-content{
-    flex: 0 0 70%;
-    max-width: 70%;
-  
-  }
-  /* .nav-tabs{
-    border: 1px solid black;
-  } */
-  .tab-content .video{
-    height: 24rem;
-    width: 58rem;
-    /* border: 1px solid black; */
-  }
-  /* end */
+ }
   .card {
     margin-bottom: 40px;
     border:0px;
