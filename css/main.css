@@ -153,4 +153,11 @@
 .social-icons a{
   color: var(--orange);
 }
-  
+.border_bar{
+  width: 130px;
+  height: 3px;
+  display: block;
+  background-color: #FFF8E1;
+  margin: 0 auto;
+  border-radius: 10px;
+}
