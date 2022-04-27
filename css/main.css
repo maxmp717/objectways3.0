@@ -18,6 +18,8 @@ a{
 }
 
 .navbar{
+  padding-left: 30px;
+  padding-right: 30px;
   border-bottom: 0.5px solid #fc614052;
 }
 .navbar-toggler:focus{
@@ -28,6 +30,13 @@ a{
   width: 9em;
   height: auto;
   margin: 0 9rem 0 0 ;
+}
+.dropdown-menu{
+  width: 293px;
+  padding: 30px 20px;
+  background-color: #fff;
+  border: 1px solid #FFD1C3;
+  box-shadow: 0 0 26px 5px rgb(255 112 67 / 20%);
 }
 .button-con{
   width: 75px;
@@ -185,4 +194,9 @@ a{
   background: #fc614042;
   border-radius: 25px;
 }
-/* Our Custom Tool */
+/* Our Custom Tool end */
+
+
+
+
+
