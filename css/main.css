@@ -6,9 +6,26 @@
   --white: #fff;
   --h1: #524964;
   --lite_orange: #fc614052;
+  --purple:  #3F3350;
+}
+body{
+  scroll-behavior: smooth;
 }
 a{
   text-decoration: none;
+}
+h1,h2,h3,h4,h5,h6{
+  color: var(--h1);
+}
+.drp-toggle i{
+  color: var(--orange);
+}
+.dropdown:hover .drp-toggle i{
+  transform: rotate(180deg);
+  transition: linear;
+}
+.dropdown:hover .dropdown-menu{
+  display: block;
 }
 .nav-link{
   color: var(--lite_gray);
@@ -41,12 +58,13 @@ a{
 .button-con{
   width: 75px;
   height: 40px;
-  border-radius: 0.4em;
+  border-radius: 0.3em;
   background: var(--orange);
   color: var(--white);
 }
 .button-con:hover{
-  color: var(--white);
+  color: var(--purple);
+  background-color: var(--white);
 }
 .home{
   margin: 0 75px;
@@ -110,19 +128,23 @@ a{
   }
   .subheading{
     color: var(--h1);
-    padding-left: 15rem;
-    padding-right: 15rem;;
+    /* padding-left: 15rem;
+    padding-right: 15rem; */
   }
   .card-footer {
-    background-color: #3F3350;
+    background-color: var(--purple);
     color: var(--white);
   }
   .footer-list a{
     color: var(--white);
     text-decoration: none;
   }
+  .footer-list a:hover{
+    color: var(--orange);
+  }
   .footer-list{
     list-style-type:none;
+    line-height: 2;
   }
   ul {
     padding-left: 0px; 
@@ -130,13 +152,13 @@ a{
   .footer-menu h5 {
     padding-top: 8rem;
     padding-left: 0rem;
-    color: var(--h1);
+    color: var(--lite_gray);
 }
 .rightmenu,.rightmenu a{
-  color: var(--h1);
+  color: var(--lite_gray);
 }
 .footercontact{
-  padding-top: 10rem;
+  padding-top: 8rem;
 }
 .social-icons a{
   color: var(--orange);
@@ -155,6 +177,7 @@ a{
   align-items: center;
   flex-wrap: wrap;
   position: relative;
+  margin: 0 0 15px 0;
 }
 .video-tabs>ul>li>a{
   display: block;
@@ -195,8 +218,35 @@ a{
   border-radius: 25px;
 }
 /* Our Custom Tool end */
-
-
+.footer-title{
+  margin: 2.6em 0 0 0;
+}
+.footer-title>h3{
+  color: var(--white);
+}
+.rightmenu>li:nth-child(2){
+  margin: 1.1em 0 0 0;
+}
+.rightmenu>li:nth-child(3) p{
+  margin: 1.1em 0 0 0;
+}
+.button-con-foot{
+  width: 75%;
+  height: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 0.3em;
+  background: var(--orange);
+  color: var(--white);
+}
+.button-con-foot:hover{
+  color: var(--purple);
+  background-color: var(--white);
+}
+.border-line{
+  border-bottom: 0.5px solid #fc614052;
+}
 
 
 
