@@ -194,17 +194,18 @@ h1,h2,h3,h4,h5,h6{
   border: 1px solid var(--lite_orange);
   padding: 0px 25px 0px;
   font-size: 17px;
+  margin-right: 20px;
   
 }
 .video-tabs>ul>li>a>img{
-  width: 25%;
+  width: 21%;
   height: auto;
 }
 /* .video-tabs>ul>li>a>.fa-light{
   color: var(--orange)
 } */
 
-/* .video-tabs>ul>li>.active>.fa-light{
+ .video-tabs>ul>li>.active>{
   color: var(--white);
 }
 .video-tabs>ul>li>.active{
@@ -225,7 +226,7 @@ h1,h2,h3,h4,h5,h6{
   max-width: 70%;
 }
 .tab-content>div>video{
-  height: 600px;
+  height: 568px;
   width: 830px;
   background: #fc614042;
   border-radius: 25px;
