@@ -10,6 +10,7 @@
 }
 body{
   scroll-behavior: smooth;
+  background: #fffef9;
 }
 a{
   text-decoration: none;
@@ -282,11 +283,11 @@ h1,h2,h3,h4,h5,h6{
   
 }
 
-#path516,#path522{
+#path516,#path520{
   animation: bird1 3s linear infinite;
   animation-direction: normal;
 }
-#path518,#path520{
+#path518,#path522{
   animation: bird1 3s linear infinite;
   animation-direction:alternate;
 }
