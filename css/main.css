@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital@1&family=Poppins:wght@200&display=swap');
 :root{
   background: #fffef9;
   --lite_gray: #707070;
@@ -11,6 +12,7 @@
 body{
   scroll-behavior: smooth;
   background: #fffef9;
+  
 }
 a{
   text-decoration: none;
@@ -36,8 +38,7 @@ h1,h2,h3,h4,h5,h6{
 }
 
 .navbar{
-  padding-left: 30px;
-  padding-right: 30px;
+  padding: 12px 30px 12px 30px;
   border-bottom: 0.5px solid #fc614052;
 }
 .navbar-toggler:focus{
@@ -52,9 +53,13 @@ h1,h2,h3,h4,h5,h6{
 .dropdown-menu{
   width: 293px;
   padding: 30px 20px;
+  margin-left: 20px;
   background-color: #fff;
   border: 1px solid #FFD1C3;
   box-shadow: 0 0 26px 5px rgb(255 112 67 / 20%);
+}
+.drp-toggle{
+  margin-right: 20px;
 }
 .button-con{
   width: 75px;
@@ -115,6 +120,7 @@ h1,h2,h3,h4,h5,h6{
   max-width: 115px;
  }
   .card {
+    padding-right: 60px;
     margin-bottom: 40px;
     border:0px;
   }
@@ -206,13 +212,13 @@ h1,h2,h3,h4,h5,h6{
   color: var(--orange)
 } */
 
- .video-tabs>ul>li>.active>{
+ /* .video-tabs>ul>li>.active>{
   color: var(--white);
 }
 .video-tabs>ul>li>.active{
   color: var(--white);
   background: var(--orange);
-} */
+} */ */
 .video-tabs .nav-tabs{
   border-bottom: none;
   padding: 0 20px;
@@ -229,7 +235,7 @@ h1,h2,h3,h4,h5,h6{
 .tab-content>div>video{
   height: 568px;
   width: 830px;
-  background: #fc614042;
+  /* background: #fc614042; */
   border-radius: 25px;
 }
 /* Our Custom Tool end */
