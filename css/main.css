@@ -64,6 +64,7 @@ h1,h2,h3,h4,h5,h6{
 }
 .button-con:hover{
   color: var(--purple);
+  border: 1px solid #FFD1C3;
   background-color: var(--white);
 }
 .home{
@@ -118,7 +119,7 @@ h1,h2,h3,h4,h5,h6{
   }
   .card-title, .usecasetitle{
     margin-bottom: 1.5rem;
-    margin-top:0.5rem;
+    margin-top:2rem;
     color: var(--h1);
   }
   .cardtitle{
@@ -162,6 +163,14 @@ h1,h2,h3,h4,h5,h6{
 }
 .social-icons a{
   color: var(--orange);
+  font-size: 1.5rem;
+}
+.social-icons a:hover{
+  color: var(--white);
+}
+.our_custom_tool{
+  margin-top: 2rem;
+  margin-bottom: 3rem;
 }
 .border_bar{
   width: 130px;
@@ -254,6 +263,7 @@ h1,h2,h3,h4,h5,h6{
     width: 100%;
     background: #fc614042;
     border-radius: 25px;
+    margin-top: 2rem;
   }
   .video-tabs>ul{
     display: block;
