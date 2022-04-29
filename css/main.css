@@ -192,12 +192,12 @@ h1,h2,h3,h4,h5,h6{
   display: block;
   color: var(--lite_gray);
   border: 1px solid var(--lite_orange);
-  padding: 16px 25px;
+  padding: 0px 25px 0px;
   font-size: 17px;
   
 }
 .video-tabs>ul>li>a>img{
-  width: 30%;
+  width: 25%;
   height: auto;
 }
 /* .video-tabs>ul>li>a>.fa-light{
@@ -225,7 +225,7 @@ h1,h2,h3,h4,h5,h6{
   max-width: 70%;
 }
 .tab-content>div>video{
-  height: 495px;
+  height: 600px;
   width: 830px;
   background: #fc614042;
   border-radius: 25px;
