@@ -282,3 +282,28 @@ h1,h2,h3,h4,h5,h6{
   
 }
 
+#path516,#path522{
+  animation: bird1 3s linear infinite;
+  animation-direction: normal;
+}
+#path518,#path520{
+  animation: bird1 3s linear infinite;
+  animation-direction:alternate;
+}
+@keyframes bird1 {
+  0%{
+      transform: translate(100px,100px);
+  }
+  25%{
+      transform: translate(250px 250px);
+  }
+  50%{
+      transform: translate(250px,350px);
+  }
+  75%{
+      transform: translate(250px,250px);
+  }
+  100%{
+      transform: translate(100px,100px);
+  }
+}
