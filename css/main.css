@@ -187,17 +187,21 @@ h1,h2,h3,h4,h5,h6{
   font-size: 17px;
   
 }
-.video-tabs>ul>li>a>.fa-light{
-  color: var(--orange)
+.video-tabs>ul>li>a>img{
+  width: 30%;
+  height: auto;
 }
+/* .video-tabs>ul>li>a>.fa-light{
+  color: var(--orange)
+} */
 
-.video-tabs>ul>li>.active>.fa-light{
+/* .video-tabs>ul>li>.active>.fa-light{
   color: var(--white);
 }
 .video-tabs>ul>li>.active{
   color: var(--white);
   background: var(--orange);
-}
+} */
 .video-tabs .nav-tabs{
   border-bottom: none;
   padding: 0 20px;
