@@ -223,9 +223,11 @@ h1,h2,h3,h4,h5,h6{
   border-bottom: none;
   padding: 0 20px;
 }
+.nav-item a:hover{
+  color: var(--orange);
+}
 .video-tabs>ul{
   display: block;
-  /* flex: 0 0 30%; */
   max-width: 30%;
 }
 .tab-content{
