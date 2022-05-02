@@ -471,7 +471,7 @@ h5{
   .footer-list a{
     color: var(--white);
     text-decoration: none;
-    font: 500 14px/1.2 'Inter', sans-serif;
+    font: 500 16px/1.2 'Inter', sans-serif;
   }
   .footer-list>li>span{
     font:400 14px/1.2 'Inter', sans-serif;
