@@ -311,13 +311,17 @@ h1,h2,h3,h4,h5,h6{
   height: auto;
   margin: 0 9rem 0 0 ;
 }
-.dropdown-menu{
-  width: 293px;
-  padding: 30px 20px;
+.dropdown-menu {
+  width: 300px;
+  padding: 30px 40px 25px 30px;
   margin-left: 20px;
   background-color: #fff;
   border: 1px solid #FFD1C3;
   box-shadow: 0 0 26px 5px rgb(255 112 67 / 20%);
+}
+.dropdown-menu p{
+  padding-left: 8px;
+  color: var(--lite_gray);
 }
 .drp-toggle{
   margin-right: 20px;
@@ -507,12 +511,12 @@ h5{
   font-size: 17px;
   margin-right: 20px;
 }
-.video-tabs>ul>li>a:active{
+/* .video-tabs>ul>li>a:active{
   background-color: var(--orange);
   color: var(--white)
-}
+} */
 .video-tabs>ul>li>a>img{
-  width: 26%;
+  width: 23%;
   height: auto;
 }
 /* .video-tabs>ul>li>a>.fa-light{
