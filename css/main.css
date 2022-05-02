@@ -450,6 +450,10 @@ h5{
     margin-top:2rem;
     color: var(--purple);
   }
+  .card-title-case{
+    margin-bottom: 2.5rem;
+    margin-top:0rem;
+  }
   .cardtitle{
     color: var(--orange);
     text-decoration: none;
