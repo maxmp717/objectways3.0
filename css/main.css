@@ -432,6 +432,9 @@ h4{
 h5{
   font: 500 19px/1.35 'Zilla Slab', serif;
 }
+.card-title{
+  font: 500 26px/1.38 'Zilla Slab', serif;
+}
 .card-title>h3{
   font: 500 26px/1.38 'Zilla Slab', serif;
 }
