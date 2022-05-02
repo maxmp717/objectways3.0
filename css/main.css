@@ -277,6 +277,7 @@ body{
 }
 a{
   text-decoration: none;
+  font-family: 'Inter';
 }
 h1,h2,h3,h4,h5,h6{
   color: var(--purple);
@@ -297,7 +298,9 @@ h1,h2,h3,h4,h5,h6{
 .nav-link:hover{
   color: var(--orange);
 }
-
+.nav-link:focus{
+  color: var(--orange)
+}
 .navbar{
   padding: 15px 30px 12px 30px;
   border-bottom: 0.5px solid #fc614052;
@@ -305,7 +308,25 @@ h1,h2,h3,h4,h5,h6{
 .navbar-toggler:focus{
   box-shadow: none;
 }
-
+.dropdown-item{
+  font: 500 18px/1.8 'Inter', sans-serif !important;
+}
+.drp-toggle{
+  font: 400 16px/1.4 'Inter', sans-serif !important;;
+}
+.dropdown-item:focus{
+  color: var(--orange);
+  background-color: var(--bs-body-bg);
+}
+.dropdown-item:hover{
+  background-color: transparent;
+}
+.dropdown-menu>li>a{
+  font: 500 18px/1.8 'Inter', sans-serif !important;
+}
+.dropdown-menu>li>p{
+  font: 400 16px/1.4 'Inter', sans-serif !important;
+}
 .navbar-brand > img{
   width: 9em;
   height: auto;
