@@ -590,6 +590,8 @@ h5{
   background: var(--orange);
   z-index: 99;
   position: fixed;
+  transition: opacity 1s;
+  opacity: 1;
 }
 .center {
   top: 0;
