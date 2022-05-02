@@ -548,6 +548,7 @@ h5{
 .video-tabs>ul>li>a>img{
   width: 23%;
   height: auto;
+  margin-right: 20px;
 }
 /* .video-tabs>ul>li>a>.fa-light{
   color: var(--orange)
