@@ -692,3 +692,60 @@ h5{
       transform: translate(100px,100px);
   }
 }
+/* datalabeling page   */
+.card-img-nlp{
+  width: 250px;
+  height: auto;
+}
+.card-2{
+margin-bottom: 40px;
+border:0px;
+max-width: 300px;
+background-color: #fffef9;
+}
+.card-title-case-2{
+  margin-bottom: 1.5rem;
+  margin-top:0rem;
+}
+.card-img-relax{
+  width: 55rem;
+  height: auto;
+}
+.relax{
+  background-color: #fffef9;
+  margin-top: 5rem;
+  margin-bottom: 8rem;
+}
+.button-con-relax{
+  width: 35%;
+  height: 40px;
+  margin-left: 55px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 0.2em;
+  background: var(--orange);
+  color: var(--white);
+}
+.button-con-relax:hover{
+  color: var(--purple);
+  border: 1px solid #FFD1C3;
+  background-color: var(--white);
+}
+.social-icons-2 a{
+  color: #FFD741;
+  font-size: 1.5rem;
+}
+.social-icons-2 a:hover{
+  color: var(--white);
+}
+.button-con-foot{
+  width: 60%;
+  height: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 0.2em;
+  background: #FFD741;
+  color: var(--white);
+}
