@@ -275,7 +275,7 @@
 body{
   scroll-behavior: smooth;
   background: #fffef9;
-  font-family: 'Inter', sans-serif;
+  font-family: 'Inter', sans-serif !important;
 }
 a{
   text-decoration: none;
@@ -324,10 +324,12 @@ h1,h2,h3,h4,h5,h6{
   background-color: transparent;
 }
 .dropdown-menu>li>a{
-  font: 500 18px/1.8 'Inter', sans-serif !important;
+  font: 400 22px/1.22 'Zilla Slab', serif !important;
+  color: black;
+  margin-bottom: 1rem;
 }
 .dropdown-menu>li>p{
-  font: 400 16px/1.4 'Inter', sans-serif !important;
+  font: 400 15px/1.4 'Inter', sans-serif !important;
 }
 .navbar-brand > img{
   width: 9em;
@@ -336,7 +338,7 @@ h1,h2,h3,h4,h5,h6{
 }
 .dropdown-menu {
   width: 300px;
-  padding: 30px 40px 25px 30px;
+  padding: 30px 55px 30px 35px;
   margin-left: 20px;
   background-color: #fff;
   border: 1px solid #FFD1C3;
@@ -466,7 +468,7 @@ h5{
   .footer-list a{
     color: var(--white);
     text-decoration: none;
-    font: 400 14px/1.2 'Inter', sans-serif;
+    font: 500 14px/1.2 'Inter', sans-serif;
   }
   .footer-list>li>span{
     font:400 14px/1.2 'Inter', sans-serif;
