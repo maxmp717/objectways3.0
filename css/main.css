@@ -274,6 +274,7 @@
 body{
   scroll-behavior: smooth;
   background: #fffef9;
+  font-family: 'Inter', sans-serif;
 }
 a{
   text-decoration: none;
