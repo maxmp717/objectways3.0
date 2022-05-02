@@ -270,6 +270,7 @@
   --h1: #524964;
   --lite_orange: #fc614052;
   --purple:  #3F3350;
+  --black: #000;
 }
 body{
   scroll-behavior: smooth;
@@ -349,8 +350,9 @@ h1,h2,h3,h4,h5,h6{
   margin-right: 20px;
 }
 .button-con{
-  width: 75px;
+  width: 90px;
   height: 40px;
+  text-align: center;
   border-radius: 0.3em;
   background: var(--orange);
   color: var(--white);
@@ -486,6 +488,7 @@ h5{
 }
 .footer-list>li>h5{
   color: var(--lite_gray);
+  margin: 0 0 25px 0;
 }
 .rightmenu{
   display: flex;
