@@ -302,7 +302,7 @@ h1,h2,h3,h4,h5,h6{
   color: var(--orange)
 }
 .navbar{
-  padding: 15px 30px 12px 30px;
+  padding: 15px 30px 15px 30px;
   border-bottom: 0.5px solid #fc614052;
 }
 .navbar-toggler:focus{
@@ -428,7 +428,7 @@ h5{
   font: 500 19px/1.35 'Zilla Slab', serif;
 }
 .card-title>h3{
-  font: 400 26px/1.38 'Zilla Slab', serif;
+  font: 500 26px/1.38 'Zilla Slab', serif;
 }
   .card {
     /* padding-right: 60px; */
@@ -449,7 +449,7 @@ h5{
   }
 .card-text{
   font: 500 17px/1.3 'Zilla Slab', sans-serif;
-  color: var(--purple)
+  color: var(--purple);
 }
   .subheading{
     color: var(--purple);
