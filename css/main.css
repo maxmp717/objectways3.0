@@ -711,7 +711,7 @@ background-color: #fffef9;
   width: 55rem;
   height: auto;
 }
-.relax{
+.relax , .customer{
   background-color: #fffef9;
   margin-top: 5rem;
   margin-bottom: 8rem;
@@ -748,4 +748,11 @@ background-color: #fffef9;
   border-radius: 0.2em;
   background: #FFD741;
   color: var(--white);
+}
+.logo-grp-desk-2{
+  display: flex;
+  flex-wrap: wrap;
+  align-content: center;
+  justify-content: space-around;
+  align-items: center;
 }
