@@ -610,7 +610,8 @@ h5{
   background: var(--orange);
   color: var(--white);
 }
-.button-con-foot:hover{
+.button-con-foot:hover,
+.button-con-foot-2:hover{
   color: var(--purple);
   background-color: var(--white);
 }
@@ -739,7 +740,7 @@ background-color: #fffef9;
 .social-icons-2 a:hover{
   color: var(--white);
 }
-.button-con-foot{
+.button-con-foot-2{
   width: 60%;
   height: 40px;
   display: flex;
