@@ -385,11 +385,11 @@ h1,h2,h3,h4,h5,h6{
   text-align: center;
   width: 100%;
 }
-.partner-title span{
+.partner-title div{
   display: inline-block;
   position: relative;
 }
-.partner-title>span>p{
+.partner-title>div>p{
   color: var(--purple);
   font: 400 16px/1.8 'Inter', sans-serif;
 }
@@ -475,7 +475,7 @@ h5{
   .footer-list a{
     color: var(--white);
     text-decoration: none;
-    font: 500 16px/1.2 'Inter', sans-serif;
+    font: 400 16px/1.2 'Inter', sans-serif;
   }
   .footer-list>li>span{
     font:400 14px/1.2 'Inter', sans-serif;
