@@ -8,6 +8,9 @@
   <title>Objectways | Data Labeling</title>
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet">
   <link href="css/main.css" rel="stylesheet">
+  <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"/>
+  <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick-theme.css"/>
+  <link rel="stylesheet" href="css/icon.css">
   <link rel="shortcut icon" type="image/png" href="img/fav.png" />
   <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js"></script>
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js"></script>
@@ -53,7 +56,7 @@
                 <a class="nav-link" href="#">Use Cases</a>
               </li>
             </ul>
-            <a class="navbar-brand d-none d-lg-block" href="#"><img src="/img/logo.jpg" alt="logo"></a>
+            <a class="navbar-brand d-none d-lg-block" href="index.html"><img src="/img/logo.jpg" alt="logo"></a>
             <ul class="navbar-nav">
               <li> <a class="nav-link button-con" href="#">Contact</a></li>
             </ul>
@@ -62,6 +65,48 @@
       </nav>
     </div>
   </header>
+  <!-- Banner -->
+  <div class="container">
+    <div class="row mt-5 justify-content-evenly">
+        <div class="col-sm-5 d-flex flex-column justify-content-evenly">
+          <div class="data-home">
+            <p class="line-text">Data Labeling</p>
+            <span class="border_bar_uc"></span>
+          </div>
+            <h1 class="data-title">High Quality Data = Successfull ML Model</h1>
+        </div>
+        <div class="col-sm-4">
+            <img src="img/Data Labeling_1.png" height="500" width="500">
+        </div>
+    </div>
+    <div class="row justify-content-center">
+        <div class="logo-l align-items-center d-flex flex-column">
+        <div class="partner-title">
+            <span>
+              <p>Why Objectways?</p>
+              <img src="img/arrow-curve.svg" class="arrow-data" alt="arrow">
+            </span>
+          </div>
+          <div class="col-7 logo-warp">
+            <div class="logo-grp-desk">
+              <div class="logo-text">
+                <p>Multiple</p>
+                <p>Labeling Tool Expertise</p>
+              </div>
+              <div class="logo-text">
+                <p>Millions Of Labels</p>
+                <p>Created</p>
+              </div>
+              <div class="logo-text">
+                <p>99%</p>
+                <p>Accuracy commitment</p>
+              </div>
+            </div>
+          </div>
+          </div>
+    </div>
+</div>
+<!-- Banner -->
   <!-- Our service -->
   <section class="container">
     <div class="text-center card-title">
@@ -81,7 +126,7 @@
       <div class="col">
         <div class="card-2">
           <img src="/img/Object_Tracking&Segmentation.png" class="card-img-nlp" alt="card-grid-image">
-          <div class="card-body">
+          <div class="card-body px-5 text-center">
             <h3 class="card-title-case-2">Lidar 3D Point Cloud </h3>
             <p class="">Estimate the trajectory of an object in a sequence of images</p>
           </div>
@@ -90,7 +135,7 @@
       <div class="col">
         <div class="card-2">
           <img src="/img/Line&Polyline.png" class="card-img-nlp" alt="card-grid-image">
-          <div class="card-body">
+          <div class="card-body px-5 text-center">
             <h3 class="card-title-case-2">Line & Polyline </h3>
             <p class="">Create continuous line annotation made of one or more line segments</p>
           </div>
@@ -99,7 +144,7 @@
       <div class="col">
         <div class="card-2">
           <img src="/img/Segmentation.png" class="card-img-nlp" alt="card-grid-image">
-          <div class="card-body">
+          <div class="card-body px-5 text-center">
             <h3 class="card-title-case-2">Segmentation</h3>
             <p class="">Annotate each pixel of an image </p>
           </div>
@@ -108,7 +153,7 @@
       <div class="col">
         <div class="card-2">
           <img src="/img/Bounding_Box.png" class="card-img-nlp" alt="card-grid-image">
-          <div class="card-body">
+          <div class="card-body px-5 text-center">
             <h3 class="card-title-case-2">Bounding Box </h3>
             <p class="">Create Bounding Boxes around interested objects</p>
           </div>
@@ -117,7 +162,7 @@
       <div class="col">
         <div class="card-2">
           <img src="/img/" class="card-img-nlp" alt="card-grid-image">
-          <div class="card-body">
+          <div class="card-body px-5 text-center">
             <h3 class="card-title-case-2">Polygon</h3>
             <p class="">Create continuous line annotationmade of one or more line segments</p>
           </div>
@@ -126,7 +171,7 @@
       <div class="col">
         <div class="card-2">
           <img src="/img/tool_8.png" class="card-img-nlp" alt="card-grid-image">
-          <div class="card-body">
+          <div class="card-body px-5 text-center">
             <h3 class="card-title-case-2">Spline</h3>
             <p class="">Create annotation using splines</p>
           </div>
@@ -135,16 +180,16 @@
       <div class="col">
         <div class="card-2">
           <img src="/img/Keypoints.png" class="card-img-nlp" alt="card-grid-image">
-          <div class="card-body">
+          <div class="card-body px-5 text-center">
             <h3 class="card-title-case-2">Keypoints</h3>
             <p class="">Detect small objects and shape variations by creating dots across the image </p>
           </div>
         </div>
       </div>
       <div class="col">
-        <div class="card-2">
+        <div class="card-2 ">
           <img src="/img/Medical_Imaging.png" class="card-img-nlp" alt="card-grid-image">
-          <div class="card-body">
+          <div class="card-body px-5 text-center">
             <h3 class="card-title-case-2">Medical Imaging</h3>
             <p class="">Create Bounding Boxes, polygons on DICOM Images </p>
           </div>
@@ -158,11 +203,11 @@
       <h3>NLP </h3>
       <span class="border_bar"></span>
     </div>
-    <div class="d-flex justify-content-center bd-highlight mb-2">
+    <div class="d-flex justify-content-between bd-highlight mb-2">
       <div class="p-2 bd-highlight">
         <div class="card-2">
           <img src="/img/Named_Entity_Recognition.png" class="card-img-nlp" alt="card-grid-image">
-          <div class="card-body">
+          <div class="card-body px-5 text-center">
             <h3 class="card-title-case text-center">Classification </h3>
             <p>Categorize any kind of text </p>
           </div>
@@ -171,7 +216,7 @@
       <div class="p-2 bd-highlight">
         <div class="card-2">
           <img src="/img/" class="card-img-nlp" alt="card-grid-image">
-          <div class="card-body">
+          <div class="card-body px-5 text-center">
             <h3 class="card-title-case text-center">Named Entity Recogition</h3>
             <p class="">Identify people, locations, and organizations within a body of text. </p>
           </div>
@@ -180,7 +225,7 @@
       <div class="p-2 bd-highlight">
         <div class="card-2">
           <img src="/img/OCR.png" class="card-img-nlp" alt="card-grid-image">
-          <div class="card-body">
+          <div class="card-body px-5 text-center">
             <h3 class="card-title-case text-center">OCR</h3>
             <p>Extract characters of a text within the images</p>
           </div>
@@ -194,11 +239,11 @@
       <h3>Other Services </h3>
       <span class="border_bar"></span>
     </div>
-    <div class="d-flex justify-content-center bd-highlight mb-2">
+    <div class="d-flex justify-content-between bd-highlight mb-2">
       <div class="p-2 bd-highlight">
         <div class="card-2">
           <img src="/img/Bounding_Box&Polygon.png" class="card-img-nlp" alt="card-grid-image">
-          <div class="card-body">
+          <div class="card-body text-center">
             <h3 class="card-title-case">Video Annotation</h3>
             <p class="">Hours-long video files or short video files - We have SME's who can make it a breeze to annotate
               them </p>
@@ -208,7 +253,7 @@
       <div class="p-2 bd-highlight">
         <div class="card-2">
           <img src="/img/tool_7.png" class="card-img-nlp" alt="card-grid-image">
-          <div class="card-body">
+          <div class="card-body text-center">
             <h3 class="card-title-case">Audio Annotation </h3>
             <p class="">Either an one-on-one conversation or an empire's call on a crowded ground - We can assist with
               all sort of audio annotations.</p>
@@ -218,7 +263,7 @@
       <div class="p-2 bd-highlight">
         <div class="card-2">
           <img src="/img/" class="card-img-nlp" alt="card-grid-image">
-          <div class="card-body">
+          <div class="card-body text-center">
             <h3 class="card-title-case">Language Translation</h3>
             <p class="">We use native language speakers for the translation services so we can provide accurate
               translation. Talk to Us to understand our services.</p>
@@ -249,6 +294,101 @@
     </div>
   </section>
   <div class="border-line"></div>
+  <!-- Our Process -->
+  <section class="container">
+    <div class="text-center">
+        <h3>Our Process</h3>
+        <span class="border_bar"></span>
+    </div>
+    <div class="row row-cols-6">
+        <div class="col">
+            <figure class="process-img d-flex justify-content-center">
+                <img src="img/ourprocess_1.svg">
+            </figure>
+            <div class="process-content">
+            <h5 class="process-title">Project Initiation and Consultation</h5>
+            <ul class="process-list">
+              <li><span><i class="fa-light fa-angle-right"></i></span>Introductions Meeting</li>
+              <li><span><i class="fa-light fa-angle-right"></i></span>PM to understand the task</li>
+              <li><span><i class="fa-light fa-angle-right"></i></span>Instruction Discussion</li>
+            </ul>
+          </div>
+        </div>
+        <div class="col">
+          <div class="pos">
+          <figure class="process-img d-flex justify-content-center">
+            <img src="img/ourprocess_2.svg">
+        </figure>
+        <h5 class="process-title">Launch Sample Job</h5>
+        <ul class="process-list">
+          <li><span><i class="fa-light fa-angle-right"></i></span>Launch Sample Job</li>
+          <li><span><i class="fa-light fa-angle-right"></i></span>Estimate efforts</li>
+          <li><span><i class="fa-light fa-angle-right"></i></span>Schedule Deliverable</li>
+        </ul>
+      </div>
+        <span class="process-dash">----</span>
+        </div>
+        <div class="col">
+          <div class="pos">
+          <figure class="process-img d-flex justify-content-center">
+            <img src="img/ourprocess_3.svg">
+        </figure>
+        <h5 class="process-title">Iterate on Instruction</h5>
+        <ul class="process-list">
+          <li><span><i class="fa-light fa-angle-right"></i></span>Clarify Instruction</li>
+          <li><span><i class="fa-light fa-angle-right"></i></span>Incorporate Feedback</li>
+          <li><span><i class="fa-light fa-angle-right"></i></span>Instruction Discussion</li>
+        </ul>
+        </div>
+        <span class="process-dash">----</span>
+        </div>
+        <div class="col">
+          <div class="pos">
+          <figure class="process-img d-flex justify-content-center">
+            <img src="img/ourprocess_4.svg">
+        </figure>
+        <h5 class="process-title">Client Feedback</h5>
+        <ul class="process-list">
+          <li><span><i class="fa-light fa-angle-right"></i></span>Deliver Sample result</li>
+          <li><span><i class="fa-light fa-angle-right"></i></span>Client feedback</li>
+          <li><span><i class="fa-light fa-angle-right"></i></span>Discuss Sample task output</li>
+        </ul>
+        </div>
+        <span class="process-dash">----</span>
+        </div>
+        <div class="col">
+          <div class="pos">
+          <figure class="process-img d-flex justify-content-center">
+            <img src="img/ourprocess_5.svg">
+        </figure>
+        <h5 class="process-title">Launch Production Job</h5>
+        <ul class="process-list">
+          <li><span><i class="fa-light fa-angle-right"></i></span>Production Deployment</li>
+          <li><span><i class="fa-light fa-angle-right"></i></span>Annotate Production Data</li>
+          <li><span><i class="fa-light fa-angle-right"></i></span>Deliver Production Job</li>
+        </ul>
+        </div>
+        <span class="process-dash">----</span>
+        </div>
+        <div class="col">
+          <div class="pos">
+          <figure class="process-img d-flex justify-content-center">
+            <img src="img/ourprocess_6.svg">
+        </figure>
+        <div class="process-content">
+        <h5 class="process-title">Deliver Data</h5>
+        <ul class="process-list">
+          <li><span><i class="fa-light fa-angle-right"></i></span>Package Data</li>
+          <li><span><i class="fa-light fa-angle-right"></i></span>Deliver Data</li>
+          <li><span><i class="fa-light fa-angle-right"></i></span>Provide Support</li>
+        </ul>
+      </div>
+        <span class="process-dash">----</span>
+        </div>
+      </div>
+    </div>
+</section>
+  <!-- Our Process -->
   <!-- customer -->
   <section class="container customer">
     <div class="text-center card-title">
@@ -289,8 +429,88 @@
     </div>
   </section>
   <div class="border-line"></div>
+<!-- Feedback -->
+<section class="container">
+  <div class="text-center card-title">
+    <h3>Customer Feedback</h3>
+    <span class="border_bar"></span>
+  </div>
+  <div class="quote-slider-wrap">
+    <div class="frame-wrap">
+      <div class="quote-frame">
+        <div class="heart part">
+          <img src="img/love-heart.svg">
+        </div>
+        <div class="line-bot"></div>
+        <div class="right-cover"></div>
+        <div class="notch">
+          <div class="line-dig"></div>
+        </div>
+      </div>
+    </div>
+    <div class="car">
+      <div class="quote-slide">
+        <div class="quote-contents">
+          <div class="txt">
+            <blockquote>
+              <span class="openq">“</span>
+              I have used objectway's labeling service for labeling named entities in TXT files and PDF files and bounding boxes for images. Throughout the process, objectways is responsive, responsible and agile. They provided us labeled data with highest quality through multiple rounds of labeling and reviews.<br>
+              I highly recommend objectways labeling service
+            </blockquote>
+            <div class="byline">
+              <p><strong>Leo - Leading Cloud Provider ML Lead</strong> 
+                <br>
+                Customer</p>
+            </div>
+          </div>
+        </div>
+    </div>
+    <div class="quote-slide">
+      <div class="quote-contents">
+        <div class="txt">
+          <blockquote>
+            <span class="openq">“</span>
+            I have used objectway's labeling service for labeling named entities in TXT files and PDF files and bounding boxes for images. Throughout the process, objectways is responsive, responsible and agile. They provided us labeled data with highest quality through multiple rounds of labeling and reviews.<br>
+            I highly recommend objectways labeling service
+          </blockquote>
+          <div class="byline">
+            <p><strong>Leo - Leading Cloud Provider ML Lead</strong> 
+              <br>
+              Customer</p>
+          </div>
+        </div>
+      </div>
+  </div>
+  <div class="quote-slide">
+    <div class="quote-contents">
+      <div class="txt">
+        <blockquote>
+          <span class="openq">“</span>
+          I have used objectway's labeling service for labeling named entities in TXT files and PDF files and bounding boxes for images. Throughout the process, objectways is responsive, responsible and agile. They provided us labeled data with highest quality through multiple rounds of labeling and reviews.<br>
+          I highly recommend objectways labeling service
+        </blockquote>
+        <div class="byline">
+          <p><strong>Leo - Leading Cloud Provider ML Lead</strong> 
+            <br>
+            Customer</p>
+        </div>
+      </div>
+    </div>
+</div>
+  </div>
+  <div class="slide-controls">
+    <div class="arrow-btn left">
+       <div class="icon icon-chevron-left slick-arrow"></div>
+    </div>
 
+    <div class="arrow-btn right">
+       <div class="icon icon-chevron-right slick-arrow"></div>
+    </div>
+</div>
+</div>
 
+</section>
+<!-- Feedback -->
 
 
 
@@ -408,6 +628,7 @@
     <div class="link-secondary"></div>
   </div>
   <script src="https://kit.fontawesome.com/d45a5731a6.js" crossorigin="anonymous"></script>
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous" type="text/javascript"></script>
   <script>
     function myFunction(x) {
       x.classList.toggle("fa-x");
@@ -421,6 +642,22 @@
       loader.style.opacity = "0"
     })
   </script>
+    <script>
+      $(document).ready(function(){
+       $('.car').slick({
+             slidesToShow: 1,
+             slidesToScroll: 1,
+             autoplay: true,
+             autoplaySpeed: 2000,
+             centerMode: true,
+             variableWidth: true, 
+             prevArrow: '.left',
+             nextArrow: '.right'
+       });
+     });
+ 
+   </script>
+   <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script> 
 </body>
 
 </html>

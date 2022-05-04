@@ -667,32 +667,6 @@ h5{
   }
   
 }
-
-#path516,#path520{
-  animation: bird1 3s linear infinite;
-  animation-direction: normal;
-}
-#path518,#path522{
-  animation: bird1 3s linear infinite;
-  animation-direction:alternate;
-}
-@keyframes bird1 {
-  0%{
-      transform: translate(100px,100px);
-  }
-  25%{
-      transform: translate(250px 250px);
-  }
-  50%{
-      transform: translate(250px,350px);
-  }
-  75%{
-      transform: translate(250px,250px);
-  }
-  100%{
-      transform: translate(100px,100px);
-  }
-}
 /* datalabeling page   */
 .card-img-nlp{
   width: 250px;
@@ -703,6 +677,9 @@ margin-bottom: 40px;
 border:0px;
 max-width: 300px;
 background-color: #fffef9;
+display: flex;
+flex-direction: column;
+align-items: center;
 }
 .card-title-case-2{
   margin-bottom: 1.5rem;
@@ -756,4 +733,277 @@ background-color: #fffef9;
   align-content: center;
   justify-content: space-around;
   align-items: center;
+}
+/* Data Labeling */
+.data-title{
+  font: 400 55px/1.22 'Zilla Slab', serif ;
+}
+.arrow-data{
+  position: absolute;
+  left: 502px;
+  top: -40px;
+  transform: rotate(123deg);
+}
+.line-text{
+  margin: -1rem 0 -8rem 0;
+  font: 400 19px/1.2 'Zilla Slab', sans-serif;
+}
+.border_bar_uc{
+  width: 130px;
+  height: 3px;
+  position: absolute;
+  top:267px;
+  display: block;
+  background-color: #FFF8E1;
+  margin: 0 auto;
+  border-radius: 10px;
+}
+.logo-text>p{
+  margin: 0;
+  text-align: center;
+  font: 400 19px/1.2 'Zilla Slab', sans-serif;
+}
+.partner-title>span>p{
+  font: 400 19px/1.2 'Zilla Slab', sans-serif;
+}
+.logo-l{
+  position: relative;
+  top: -25px;
+}
+.process-img>img{
+  width: 120px;
+  height: auto;
+}
+.process-content{
+  text-align: center;
+}
+ul,ol{
+  list-style: none;
+  padding: 0;
+}
+.process-list>li>span{
+  font-size: 1.3em;
+  color: var(--orange);
+  margin: 0 8px 0 0;
+}
+.process-list>li{
+  display: flex;
+}
+.process-title{
+  text-align: center;
+  height: 45px;
+}
+.process-dash{
+  font-size: 3em;
+  position: absolute;
+  display: block;
+  /* top: -15.938rem;
+  left: -2.188rem; */
+  top: 2.062rem;
+    left: -2.488rem;
+  z-index: 1;
+  color: var(--orange);
+}
+.pos{
+  position: relative;
+}
+.col{
+  position: relative;
+}
+.quote-slider-wrap{
+  width: 100%;
+  max-width: 728px;
+  margin: 145px auto;
+  margin-top: 90px;
+  height: 406px;
+  position: relative;
+  overflow: visible;
+}
+.frame-wrap{
+  width: 100%;
+    height: 100%;
+    position: absolute;
+    left: 0;
+    top: 0;
+    pointer-events: none;
+}
+.quote-frame{
+  width: 100%;
+  max-width: 728px;
+  margin: 0 auto;
+  height: 100%;
+  border: 2px solid #3f3350;
+  position: relative;
+}
+.part img{
+  width: 100%;
+    height: auto;
+    display: block;
+    position: relative;
+}
+.heart{
+  width: 41px;
+  left: -37px;
+  top: -50px;
+  position: absolute;
+}
+.line-bot{
+  width: 50px;
+  height: 2px;
+  background-color: #fff;
+  position: absolute;
+  left: 110px;
+  bottom: -2px;
+}
+.right-cover{
+  width: 61px;
+    height: 75px;
+    background-color: #fff;
+    position: absolute;
+    right: -3px;
+    top: -3px;
+}
+.notch{
+  position: absolute;
+    right: 0px;
+    top: 0px;
+    width: 61px;
+    height: 61px;
+    border-left: 2px solid #3f3350;
+    border-bottom: 2px solid #3f3350;
+}
+.line-dig{
+  width: 1px;
+    height: 85px;
+    position: absolute;
+    left: 0;
+    top: 0;
+    transform-origin: left top;
+    transform: rotate(-44deg);
+    border-left: 2px solid #3f3350;
+}
+.quote-slide{
+  width: 728px;
+    height: 100%;
+    /* opacity: .22;
+    -webkit-transition: opacity 0.5s linear;
+    -moz-transition: opacity 0.5s linear;
+    -o-transition: opacity 0.5s linear;
+    transition: opacity 0.5s linear;*/
+}
+.quote-contents{
+  width: 100%;
+    max-width: 728px;
+    margin: 0 auto;
+    height: 100%;
+    /* border: 2px solid transparent; */
+    padding: 25px 50px;
+    position: relative;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-flex-direction: column;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -webkit-flex-wrap: wrap;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    -webkit-justify-content: center;
+    -ms-flex-pack: justify;
+    justify-content: center;
+    -webkit-align-items: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-align-content: stretch;
+    -ms-flex-line-pack: stretch;
+    align-content: stretch;
+}
+.txt{
+  max-width: 560px;
+}
+.openq{
+  position: absolute;
+    left: 71px;
+    display: inline-block;
+    top: 6px;
+}
+.byline{
+  font-size: 16px;
+    margin-top: 45px;
+}
+.txt>blockquote{
+  font: 400 23px/1.62 'Zilla Slab', serif;
+    font-style: italic;
+}
+/* .arrow-btn{
+  display: inline-block;
+    vertical-align: middle;
+    cursor: pointer;
+}
+.slide-control .arrow-btn .icon{
+  color: #ff7043;
+    font-size: 25px;
+    -webkit-transition: all 0.3s linear;
+    -moz-transition: all 0.3s linear;
+    -o-transition: all 0.3s linear;
+    transition: all 0.3s linear;
+} */
+.slide-controls .arrow-btn {
+  display: inline-block;
+  vertical-align: middle;
+  cursor: pointer;
+}
+.slide-controls .arrow-btn .icon {
+  color: #ff7043;
+  font-size: 25px;
+  -webkit-transition: all 0.3s linear;
+  -moz-transition: all 0.3s linear;
+  -o-transition: all 0.3s linear;
+  transition: all 0.3s linear;
+}
+.slide-controls .arrow-btn + .arrow-btn {
+  margin-left: 46px;
+}
+.slide-controls .arrow-btn.off {
+  pointer-events: none;
+}
+.slide-controls .arrow-btn.off .icon {
+  color: #3f3350;
+  opacity: .2;
+}
+.slide-controls{
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  max-width: 726px;
+  margin: 0 auto;
+  text-align: left;
+  margin-top: 35px;
+}
+/* Keep Last Always */
+
+#path516,#path520{
+  animation: bird1 3s linear infinite;
+  animation-direction: normal;
+}
+#path518,#path522{
+  animation: bird1 3s linear infinite;
+  animation-direction:alternate;
+}
+@keyframes bird1 {
+  0%{
+      transform: translate(100px,100px);
+  }
+  25%{
+      transform: translate(250px 250px);
+  }
+  50%{
+      transform: translate(250px,350px);
+  }
+  75%{
+      transform: translate(250px,250px);
+  }
+  100%{
+      transform: translate(100px,100px);
+  }
 }
