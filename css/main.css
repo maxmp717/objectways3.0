@@ -337,8 +337,8 @@ h1,h2,h3,h4,h5,h6{
   margin: 0 9rem 0 0 ;
 }
 .dropdown-menu {
-  width: 300px;
-  padding: 30px 52px 30px 35px;
+  width: 280px;
+  padding: 30px 50px 30px 35px;
   margin-left: 20px;
   background-color: #fff;
   border: 1px solid #FFD1C3;
@@ -346,6 +346,7 @@ h1,h2,h3,h4,h5,h6{
 }
 .dropdown-menu p{
   padding-left: 8px;
+  padding-right: 11px;
   color: var(--lite_gray);
 }
 .drp-toggle{
@@ -372,10 +373,11 @@ h1,h2,h3,h4,h5,h6{
   margin: 15px 44px;
 }
 .home-title>h1{
-  font: 400 60px/1.22 'Zilla Slab', serif !important;
+  font: 400 50px/1.22 'Zilla Slab', serif !important;
+  padding: 0px 10px 0px 10px;
 }
 .home-content>h2{
-  font: 400 20px/1.8 'Inter', sans-serif;
+  font: 400 17px/1.8 'Inter', sans-serif;
 }
 .partner-logo{
   padding: 0 50px;
@@ -421,7 +423,7 @@ h1,h2,h3,h4,h5,h6{
   max-width: 115px;
  }
 .sol-title,.case-title>h2{
-  font: 400 40px/1.22 'Zilla Slab', serif;
+  font: 400 32px/1.22 'Zilla Slab', serif;
 }
 h3{
   font: 400 26px/1.38 'Zilla Slab', serif;
@@ -668,7 +670,7 @@ h5{
   
 }
 /* datalabeling page   */
-.card-img-nlp{
+.card-img-nlp {
   width: 250px;
   height: auto;
 }
@@ -686,7 +688,7 @@ align-items: center;
   margin-top:0rem;
 }
 .card-img-relax{
-  width: 55rem;
+  width: 52rem;
   height: auto;
 }
 .relax , .customer{
@@ -736,7 +738,7 @@ align-items: center;
 }
 /* Data Labeling */
 .data-title{
-  font: 400 55px/1.22 'Zilla Slab', serif ;
+  font: 400 40px/1.22 'Zilla Slab', serif ;
 }
 .arrow-data{
   position: absolute;
@@ -745,7 +747,7 @@ align-items: center;
   transform: rotate(123deg);
 }
 .line-text{
-  margin: -1rem 0 -5rem 0;
+  margin: 1rem 0 5rem 0;
   font: 400 19px/1.2 'Zilla Slab', sans-serif;
 }
 .border_bar_uc{
