@@ -311,10 +311,10 @@ h1,h2,h3,h4,h5,h6{
   box-shadow: none;
 }
 .dropdown-item{
-  font: 500 18px/1.8 'Inter', sans-serif !important;
+  font: 400 16px/1.8 'Inter', sans-serif !important;
 }
 .drp-toggle{
-  font: 400 16px/1.4 'Inter', sans-serif !important;;
+  font: 400 15px/1.4 'Inter', sans-serif !important;;
 }
 .dropdown-item:focus{
   color: var(--orange);
@@ -324,12 +324,12 @@ h1,h2,h3,h4,h5,h6{
   background-color: transparent;
 }
 .dropdown-menu>li>a{
-  font: 400 22px/1.22 'Zilla Slab', serif !important;
+  font: 400 19px/1.22 'Zilla Slab', serif !important;
   color: black;
-  margin-bottom: 1rem;
+  margin-bottom: 0.5rem;
 }
 .dropdown-menu>li>p{
-  font: 400 15px/1.4 'Inter', sans-serif !important;
+  font: 400 14px/1.4 'Inter', sans-serif !important;
 }
 .navbar-brand > img{
   width: 9em;
@@ -372,7 +372,7 @@ h1,h2,h3,h4,h5,h6{
   margin: 15px 44px;
 }
 .home-title>h1{
-  font: 400 60px/1.22 'Zilla Slab', serif !important;
+  font: 400 57px/1.22 'Zilla Slab', serif !important;
 }
 .home-content>h2{
   font: 400 20px/1.8 'Inter', sans-serif;
@@ -475,7 +475,7 @@ h5{
   .footer-list a{
     color: var(--white);
     text-decoration: none;
-    font: 400 16px/1.2 'Inter', sans-serif;
+    font: 400 14px/1.2 'Inter', sans-serif;
   }
   .footer-list>li>span{
     font:400 14px/1.2 'Inter', sans-serif;
