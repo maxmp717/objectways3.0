@@ -338,7 +338,7 @@ h1,h2,h3,h4,h5,h6{
 }
 .dropdown-menu {
   width: 300px;
-  padding: 30px 55px 30px 35px;
+  padding: 30px 52px 30px 35px;
   margin-left: 20px;
   background-color: #fff;
   border: 1px solid #FFD1C3;
@@ -475,7 +475,7 @@ h5{
   .footer-list a{
     color: var(--white);
     text-decoration: none;
-    font: 400 14px/1.2 'Inter', sans-serif;
+    font: 400 15px/1.2 'Inter', sans-serif;
   }
   .footer-list>li>span{
     font:400 14px/1.2 'Inter', sans-serif;
@@ -592,7 +592,7 @@ h5{
 }
 .footer-title>h2{
   color: var(--white);
-  font: 400 33px/1.47 'Zilla Slab', serif;
+  font: 400 41px/1.47 'Zilla Slab', serif;
 }
 .rightmenu>li:nth-child(2){
   margin: 1.1em 0 0 0;
