@@ -778,6 +778,12 @@ align-items: center;
   position: relative;
   top: -25px;
 }
+.op-title{
+  margin: 0 0 40px 0;
+}
+.our_process{
+  margin: 75px 0;
+}
 .process-img>img{
   width: 120px;
   height: auto;
