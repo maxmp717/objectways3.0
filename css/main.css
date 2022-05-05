@@ -374,7 +374,6 @@ h1,h2,h3,h4,h5,h6{
 }
 .home-title>h1{
   font: 400 50px/1.22 'Zilla Slab', serif !important;
-  padding: 0px 10px 0px 10px;
 }
 .home-content>h2{
   font: 400 17px/1.8 'Inter', sans-serif;
@@ -671,7 +670,7 @@ h5{
 }
 /* datalabeling page   */
 .card-img-nlp {
-  width: 250px;
+  width: 180px;
   height: auto;
 }
 .card-2{
@@ -742,7 +741,7 @@ align-items: center;
 }
 .arrow-data{
   position: absolute;
-  left: 502px;
+  left: 412px;
   top: -40px;
   transform: rotate(123deg);
 }
