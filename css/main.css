@@ -748,7 +748,7 @@ align-items: center;
 }
 .arrow-data{
   position: absolute;
-  left: 412px;
+  left: 402px;
   top: -40px;
   transform: rotate(123deg);
 }
