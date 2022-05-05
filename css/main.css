@@ -691,7 +691,7 @@ align-items: center;
   margin-top:0rem;
 }
 .card-img-relax{
-  width: 52rem;
+  width: 46rem;
   height: auto;
 }
 .relax , .customer{
@@ -702,7 +702,7 @@ align-items: center;
 .button-con-relax{
   width: 35%;
   height: 40px;
-  margin-left: 55px;
+  /* margin-left: 55px; */
   display: flex;
   align-items: center;
   justify-content: center;
@@ -802,13 +802,11 @@ ul,ol{
   height: 45px;
 }
 .process-dash{
-  font-size: 3em;
+  font-size: 2.3em;
   position: absolute;
   display: block;
-  /* top: -15.938rem;
-  left: -2.188rem; */
-  top: 2.062rem;
-    left: -2.488rem;
+  top: 2.362rem;
+  left: -2.188rem;
   z-index: 1;
   color: var(--orange);
 }
