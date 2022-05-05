@@ -385,6 +385,7 @@ h1,h2,h3,h4,h5,h6{
   position: relative;
   text-align: center;
   width: 100%;
+  margin: 0 0 20px  0;
 }
 .partner-title div{
   display: inline-block;
@@ -438,6 +439,9 @@ h5{
 }
 .card-title>h3{
   font: 500 26px/1.38 'Zilla Slab', serif;
+}
+.card-data-1{
+  font: 400 19px/1.35 'Zilla Slab', serif;
 }
   .card {
     /* padding-right: 60px; */
@@ -736,6 +740,9 @@ align-items: center;
   align-items: center;
 }
 /* Data Labeling */
+.card-data{
+  font: 400 20px/1.35 'Zilla Slab', serif !important;
+}
 .data-title{
   font: 400 40px/1.22 'Zilla Slab', serif ;
 }
@@ -746,7 +753,7 @@ align-items: center;
   transform: rotate(123deg);
 }
 .line-text{
-  margin: 1rem 0 5rem 0;
+  margin: -1rem 0 -5rem 0;
   font: 400 19px/1.2 'Zilla Slab', sans-serif;
 }
 .border_bar_uc{
