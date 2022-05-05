@@ -897,7 +897,7 @@ ul {
 
 .arrow-data {
   position: absolute;
-  left: -70newpx;
+  left: -70px;
   top: -40px;
   transform: rotate(123deg);
 }
