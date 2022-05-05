@@ -999,8 +999,8 @@ ol {
 .quote-slider-wrap {
   width: 100%;
   max-width: 728px;
-  margin: 145px auto;
-  margin-top: 90px;
+  /* margin: 145px auto; */
+  margin-top: 15px;
   height: 406px;
   position: relative;
   overflow: visible;
@@ -1184,9 +1184,18 @@ ol {
   max-width: 726px;
   margin: 0 auto;
   text-align: left;
-  margin-top: 35px;
+  margin-top: 65px;
+  margin-bottom: 35px;
 }
-
+.feedback{
+  background: #fff;
+}
+.data-h4{
+  font: 400 19px/1.35 'Zilla Slab', serif;
+}
+.data-h3{
+  font: 400 26px/1.38 'Zilla Slab', serif !important; 
+}
 /* Keep Last Always */
 
 #path516,
