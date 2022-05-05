@@ -756,6 +756,9 @@ align-items: center;
   margin: -1rem 0 -5rem 0;
   font: 400 19px/1.2 'Zilla Slab', sans-serif;
 }
+.Our-service, .Nlp,.Other-Service, .Our-Process, .customer-feedback{
+background-color: var(--white);
+}
 .border_bar_uc{
   width: 130px;
   height: 3px;
