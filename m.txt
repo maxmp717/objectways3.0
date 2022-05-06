@@ -1,2 +1,0 @@
-col-md-11 d-flex align-items-center me-5 ms-5 mb-3 flex-column
-<div class="col"></div>
