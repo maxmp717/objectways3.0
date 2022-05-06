@@ -361,8 +361,7 @@ h6 {
 }
 
 .drp-toggle {
-  font: 400 15px/1.4 'Inter', sans-serif !important;
-  ;
+  font: 400 16px/1.125 'Inter', sans-serif !important;
 }
 
 .dropdown-item:focus {
@@ -434,11 +433,11 @@ h6 {
 }
 
 .home-title>h1 {
-  font: 400 50px/1.22 'Zilla Slab', serif !important;
+  font: 400 60px/1.22 'Zilla Slab', serif !important;
 }
 
 .home-content>h2 {
-  font: 400 17px/1.8 'Inter', sans-serif;
+  font: 400 20px/1.8 'Inter', sans-serif;
 }
 
 .partner-logo {
@@ -459,7 +458,7 @@ h6 {
 
 .partner-title>div>p {
   color: var(--purple);
-  font: 400 16px/1.8 'Inter', sans-serif;
+  font: 400 16px/1.75 'Inter', sans-serif;
 }
 
 .arrow {
@@ -494,9 +493,9 @@ h6 {
   max-width: 115px;
 }
 
-.sol-title,
+.sol-title>h2,
 .case-title>h2 {
-  font: 400 32px/1.22 'Zilla Slab', serif;
+  font: 400 60px/1.4 'Zilla Slab', serif;
 }
 
 h3 {
@@ -554,7 +553,7 @@ h5 {
 }
 
 .card-text {
-  font: 500 17px/1.3 'Zilla Slab', sans-serif;
+  font: 400 15px/1.73 'Inter', sans-serif;
   color: var(--purple);
 }
 
@@ -572,7 +571,7 @@ h5 {
 .footer-list a {
   color: var(--white);
   text-decoration: none;
-  font: 400 15px/1.2 'Inter', sans-serif;
+  font: 400 14px/1.42 'Inter', sans-serif;
 }
 
 .footer-list>li>span {
@@ -718,7 +717,7 @@ ul {
 
 .footer-title>h2 {
   color: var(--white);
-  font: 400 41px/1.47 'Zilla Slab', serif;
+  font: 400 38px/1.5 'Zilla Slab', serif;
 }
 
 .rightmenu>li:nth-child(2) {
