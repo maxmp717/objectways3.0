@@ -680,10 +680,10 @@ ul {
   color: var(--white);
   background: var(--orange);
 } */
-*/.video-tabs .nav-tabs {
+/*.video-tabs .nav-tabs {
   border-bottom: none;
   padding: 0 20px;
-} 
+} */
 
 .nav-item a:hover {
   color: var(--orange);
@@ -705,8 +705,13 @@ ul {
   /* background: #fc614042; */
   border-radius: 25px;
 }
-
 /* Our Custom Tool end */
+.usecase{
+  font: 500 19px/1.35 'Inter', serif;
+}
+.index-card{
+  font: 400 23px/1.38 'Inter', serif !important;
+}
 .footer-title {
   margin: 2.6em 0 0 0;
 }
