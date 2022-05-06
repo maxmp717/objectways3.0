@@ -1196,6 +1196,12 @@ ol {
 .data-h3{
   font: 400 26px/1.38 'Zilla Slab', serif !important; 
 }
+.data-logo{
+  padding: 0 0 25px 0;
+}
+.case-title-data>h2 {
+  font: 500 32px/1.22 'Zilla Slab', serif;
+}
 /* Keep Last Always */
 
 #path516,
