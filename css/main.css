@@ -812,6 +812,11 @@ ul {
   height: auto;
 }
 
+.customer-logo img {
+  height: auto;
+  width: 100%;
+  max-width: 250px;
+}
 .card-2 {
   margin-bottom: 40px;
   border: 0px;
