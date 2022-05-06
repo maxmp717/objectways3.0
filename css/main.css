@@ -680,10 +680,10 @@ ul {
   color: var(--white);
   background: var(--orange);
 } */
-.video-tabs .nav-tabs {
+*/.video-tabs .nav-tabs {
   border-bottom: none;
   padding: 0 20px;
-}
+} 
 
 .nav-item a:hover {
   color: var(--orange);
