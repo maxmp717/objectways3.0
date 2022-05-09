@@ -495,7 +495,7 @@ h6 {
 
 .sol-title>h2,
 .case-title>h2 {
-  font: 400 60px/1.4 'Zilla Slab', serif;
+  font: 400 60px/1.22 'Zilla Slab', serif;
 }
 
 h3 {
@@ -515,7 +515,7 @@ h5 {
 }
 
 .card-title>h3 {
-  font: 500 26px/1.38 'Zilla Slab', serif;
+  font: 500 19px/1.38 'Zilla Slab', serif;
 }
 
 .title-1>h3 {
@@ -709,7 +709,7 @@ ul {
   font: 500 19px/1.35 'Inter', serif;
 }
 .index-card{
-  font: 400 23px/1.38 'Inter', serif !important;
+  font: 500 19px/1.38 'Zilla Slab', serif !important;
 }
 .footer-title {
   margin: 2.6em 0 0 0;
@@ -901,13 +901,13 @@ ul {
 }
 
 .data-title {
-  font: 400 40px/1.22 'Zilla Slab', serif;
+  font: 400 60px/1.22 'Zilla Slab', serif;
 }
 
 .arrow-data {
   position: absolute;
-  left: -70px;
-  top: -40px;
+  left: -80px;
+  top: -36px;
   transform: rotate(123deg);
 }
 
@@ -940,8 +940,8 @@ ul {
   font: 500 19px/1.2 'Zilla Slab', sans-serif;
 }
 
-.partner-title>div>p {
-  font: 400 21px/1.2 'Zilla Slab', sans-serif;
+.data-partner>div>p {
+  font: 400 18px/1.75 'Zilla Slab', sans-serif;
 }
 
 .logo-l {
@@ -1208,11 +1208,13 @@ ol {
 .data-logo{
   padding: 0 0 25px 0;
 }
-.case-title-data>h2 {
-  font: 500 32px/1.22 'Zilla Slab', serif;
+.case-title-data>h2 , .case-title-data>div>h2 {
+  font: 400 60px/1.22 'Zilla Slab', serif ;
 }
 /* Keep Last Always */
-
+.relax-text>p{
+  font: 400 20px/1.8 'Inter', serif;
+}
 #path516,
 #path520 {
   animation: bird1 3s linear infinite;
