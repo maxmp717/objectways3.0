@@ -1274,6 +1274,22 @@ ol {
   animation: righttree 3s linear infinite ;;
 }
 
+#path52,#path40,#path48,#path24,#path22,#path46,#path50,#path44{
+  transform-box: fill-box;
+  transform-origin: top;
+  animation: cloud 3s linear infinite ;;
+}
+@keyframes cloud {
+  0%{
+    transform: rotate(13deg);
+  }
+  50%{
+    transform: rotate(-3deg);
+  }
+  100%{
+    transform: rotate(13deg);
+  }
+}
 @keyframes righttree {
   0%{
     transform: rotate(3deg);
