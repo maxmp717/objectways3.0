@@ -1250,27 +1250,46 @@ ol {
 }
 #path18{
   animation: sun1 3s linear infinite ;
+  animation-delay: 2s;
 }
 #path16{
   animation: sun2 3s linear infinite ;
-  /* animation-delay: 2s; */
+  animation-delay: 3s;
 }
 #path14{
   animation: sun3 3s linear infinite ;
-  /* animation-delay: 4s; */
+  animation-delay: 6s;
 }
 #path20{
   animation: sun4 3s ease infinite ;
 }
+#path64,#path66{
+  transform-box: fill-box;
+  transform-origin: top;
+  animation: lefttree 3s linear infinite ;;
+}
+
+@keyframes lefttree {
+  0%{
+    transform: rotate(3deg);
+  }
+  50%{
+    transform: rotate(-3deg);
+  }
+  100%{
+    transform: rotate(3deg);
+  }
+}
+
 @keyframes sun1 {
   0%{
     opacity: 0;
   }
   50%{
-    opacity: 0.5;
+    opacity: 1;
   }
   100%{
-    opacity: 1;
+    opacity: 0;
   }
 }
 @keyframes sun2 {
@@ -1278,10 +1297,10 @@ ol {
     opacity: 0;
   }
   50%{
-    opacity: 0.5;
+    opacity: 1;
   }
   100%{
-    opacity: 1;
+    opacity: 0;
   }
 }
 @keyframes sun3 {
@@ -1289,10 +1308,10 @@ ol {
     opacity: 0;
   }
   50%{
-    opacity: 0.5;
+    opacity: 1;
   }
   100%{
-    opacity: 1;
+    opacity: 0;
   }
 }
 @keyframes sun4 {
