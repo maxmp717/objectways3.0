@@ -1248,3 +1248,58 @@ ol {
     transform: translate(100px, 100px);
   }
 }
+#path18{
+  animation: sun1 3s linear infinite ;
+}
+#path16{
+  animation: sun2 3s linear infinite ;
+  /* animation-delay: 2s; */
+}
+#path14{
+  animation: sun3 3s linear infinite ;
+  /* animation-delay: 4s; */
+}
+#path20{
+  animation: sun4 3s ease infinite ;
+}
+@keyframes sun1 {
+  0%{
+    opacity: 0;
+  }
+  50%{
+    opacity: 0.5;
+  }
+  100%{
+    opacity: 1;
+  }
+}
+@keyframes sun2 {
+  0%{
+    opacity: 0;
+  }
+  50%{
+    opacity: 0.5;
+  }
+  100%{
+    opacity: 1;
+  }
+}
+@keyframes sun3 {
+  0%{
+    opacity: 0;
+  }
+  50%{
+    opacity: 0.5;
+  }
+  100%{
+    opacity: 1;
+  }
+}
+@keyframes sun4 {
+  0%{
+    opacity: 0;
+  }
+  100%{
+    opacity: 1;
+  }
+}
