@@ -1268,7 +1268,23 @@ ol {
   transform-origin: top;
   animation: lefttree 3s linear infinite ;;
 }
+#path54,#path56{
+  transform-box: fill-box;
+  transform-origin: top;
+  animation: righttree 3s linear infinite ;;
+}
 
+@keyframes righttree {
+  0%{
+    transform: rotate(3deg);
+  }
+  50%{
+    transform: rotate(-3deg);
+  }
+  100%{
+    transform: rotate(3deg);
+  }
+}
 @keyframes lefttree {
   0%{
     transform: rotate(3deg);
