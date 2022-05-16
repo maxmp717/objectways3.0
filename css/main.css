@@ -1277,17 +1277,17 @@ ol {
 #path52,#path40,#path48,#path24,#path22,#path46,#path50,#path44{
   transform-box: fill-box;
   transform-origin: top;
-  animation: cloud 3s linear infinite ;;
+  animation: cloud 15s linear infinite ;;
 }
 @keyframes cloud {
   0%{
-    transform: rotate(13deg);
+    transform: translateX(10rem);
   }
   50%{
-    transform: rotate(-3deg);
+    transform: translateX(300rem);
   }
   100%{
-    transform: rotate(13deg);
+    transform: translateX(500rem);
   }
 }
 @keyframes righttree {
