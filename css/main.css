@@ -1286,8 +1286,8 @@ ol {
 }
 @keyframes car {
   0%{
-    -webkit-transform: translateZ(-1400px);
-            transform: translateZ(-1400px);
+        -webkit-transform: translateZ(-1400px) translateY(-800px) translateX(-1000px);
+            transform: translateZ(-1400px) translateY(-800px) translateX(-1000px);
     opacity: 0;
   }
   100%{
