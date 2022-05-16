@@ -1274,10 +1274,27 @@ ol {
   animation: righttree 3s linear infinite ;;
 }
 
-#path52,#path40,#path48,#path24,#path22,#path46,#path50,#path44{
+ #path52,#path40,#path48,#path24,#path22,#path46,#path50,#path44{
   transform-box: fill-box;
   transform-origin: top;
   animation: cloud 15s linear infinite ;;
+}
+#path492,#path496,#path500, #path512, #path508, #path504,#path276,#path274,#path490,#path494,#path506,#path498,#path502,#path280,#path514,#path510{
+  transform-box: fill-box;
+  transform-origin: top;
+  animation: car 8s linear infinite ;;
+}
+@keyframes car {
+  0%{
+    -webkit-transform: translateZ(-1400px);
+            transform: translateZ(-1400px);
+    opacity: 0;
+  }
+  100%{
+    -webkit-transform: translateZ(0);
+    transform: translateZ(0);
+opacity: 1;
+  }
 }
 @keyframes cloud {
   0%{
