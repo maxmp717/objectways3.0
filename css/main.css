@@ -511,20 +511,20 @@ h5 {
 }
 
 .card-title {
-  font: 500 26px/1.38 'Zilla Slab', serif;
+  font: 400 26px/1.38 'Zilla Slab', serif;
 }
 
-.card-title>h3 {
+/* .card-title>h3 {
   font: 500 19px/1.38 'Zilla Slab', serif;
-}
+} */
 
 .title-1>h3 {
   font: 400 26px/1.38 'Zilla Slab', serif;
 }
 
-.card-data-1 {
+/* .card-data-1 {
   font: 400 19px/1.35 'Zilla Slab', serif;
-}
+} */
 
 .card {
   /* padding-right: 60px; */
