@@ -24,6 +24,24 @@
     opacity: 1;
   }
 }
+.w2{
+  transform-box: fill-box;
+  transform-origin: center;
+  animation: fade-in-fwd 3s linear infinite;
+  }
+  @keyframes fade-in-fwd {
+  0% {
+    -webkit-transform: translateZ(-80px);
+            transform: translateZ(-80px);
+    opacity: 0;
+  }
+  100% {
+    -webkit-transform: translateZ(0);
+            transform: translateZ(0);
+    opacity: 1;
+  }
+}
+
 	</style>
 	<g id="Layer 1">
 		<path id="&lt;Path&gt;" class="s0" d="m1600 1200h-1600v-1200h1600z"/>
@@ -71,15 +89,15 @@
 			<path id="&lt;Path&gt;" class="s4" d="m824.8 709.2h-47.6v-45.8h47.6z"/>
 			<path id="&lt;Path&gt;" class="s3" d="m824.8 709.2h-47.6v-45.8h47.6z"/>
 			<g id="&lt;Group&gt;">
-				<rect id="&lt;Path&gt;" class="s1" x="726.5" y="709.2" width="149" height="106.7" rx="15.7"></rect>
+				<rect id="&lt;Path&gt;" class="s1 w2" x="726.5" y="709.2" width="149" height="106.7" rx="15.7"></rect>
 			</g>
 			<rect id="&lt;Path&gt;" class="s3" x="726.5" y="709.2" width="149" height="106.7" rx="15.7"></rect>
 			<path id="&lt;Path&gt;" class="s5" d="m875.5 743.3h11.2c10.7 0 19.3 8.6 19.3 19.3 0 10.6-8.6 19.2-19.3 19.2h-11.2"/>
-			<path id="&lt;Path&gt;" class="s5" d="m726.5 781.8h-11.3c-10.6 0-19.2-8.6-19.2-19.2 0-10.7 8.6-19.3 19.2-19.3h11.3"/>
+			<path id="&lt;Path&gt;" class="s5 w2" d="m726.5 781.8h-11.3c-10.6 0-19.2-8.6-19.2-19.2 0-10.7 8.6-19.3 19.2-19.3h11.3"/>
 			<path id="&lt;Path&gt;" class="s3" d="m875.5 743.3h11.2c10.7 0 19.3 8.6 19.3 19.3 0 10.6-8.6 19.2-19.3 19.2h-11.2"/>
 			<path id="&lt;Path&gt;" class="s3" d="m726.5 781.8h-11.3c-10.6 0-19.2-8.6-19.2-19.2 0-10.7 8.6-19.3 19.2-19.3h11.3"/>
-			<circle id="&lt;Path&gt;" class="s2" cx="801" cy="762.6" r="24.1"/>
-			<circle id="&lt;Path&gt;" class="s3" cx="801" cy="762.6" r="24.1"/>
+			<circle id="&lt;Path&gt;" class="s2 w2" cx="801" cy="762.6" r="24.1"/>
+			<circle id="&lt;Path&gt;" class="s3 w2" cx="801" cy="762.6" r="24.1"/>
 		</g>
 	</g>
 </svg>
