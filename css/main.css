@@ -1296,6 +1296,18 @@ ol {
 opacity: 1;
   }
 }
+#Group_9,#Group_10{
+  transform-box: fill-box;
+  transform-origin: center;
+  animation: wheel 3s linear infinite;}
+  @keyframes wheel {
+   from{
+      transform: rotate(0deg);
+    }
+    to{
+      transform: rotate(360deg);
+    }
+  }
 @keyframes cloud {
   0%{
     transform: translateX(10rem);

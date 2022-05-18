@@ -13,6 +13,52 @@
 		.s9 { fill: none;stroke: #000000;stroke-linecap: round;stroke-linejoin: round;stroke-width: 5.2 } 
 		.s10 { fill: #8d7e83 } 
 		.s11 { fill: #e0bd9b } 
+
+.w1{
+  transform-box: fill-box;
+  transform-origin: top;
+  animation: fade-in-bottom 3s linear infinite ;;
+}
+		@keyframes fade-in-bottom {
+  0% {
+    -webkit-transform: translateY(50px);
+            transform: translateY(50px);
+    opacity: 0;
+  }
+  100% {
+    -webkit-transform: translateY(0);
+            transform: translateY(0);
+    opacity: 1;
+  }
+}
+.w2{
+  transform-box: fill-box;
+  transform-origin: center;
+  animation: wheel 3s linear infinite;}
+  @keyframes wheel {
+   from{
+      transform: rotate(0deg);
+    }
+    to{
+      transform: rotate(360deg);
+    }
+  }
+.w3{
+  transform-box: fill-box;
+  transform-origin: top;
+  animation: cloud 3s linear infinite ;;
+}
+  @keyframes cloud {
+  0%{
+    transform: translateX(10px);
+  }
+  50%{
+    transform: translateX(50px);
+  }
+  100%{
+    transform: translateX(100px);
+  }
+}
 	</style>
 	<g id="Layer 1">
 		<g id="&lt;Group&gt;">
@@ -39,10 +85,10 @@
 				<path id="&lt;Path&gt;" class="s9" d="m1352.6 888q-12.7 47.7-68.3 71.7"/>
 				<path id="&lt;Path&gt;" class="s9" d="m778.1 886.6q-30.3 73.2-90.1 73.2-37.4 0-52.1 0c-14.8 0-63.6-1.9-89.3-73.2"/>
 				<path id="&lt;Path&gt;" class="s9" d="m728.4 886.6q-11.7 47.4-71.5 73.2"/>
-				<ellipse id="&lt;Path&gt;" class="s10" cx="309.9" cy="851.6" rx="57.9" ry="67.9"/>
+				<ellipse id="&lt;Path&gt;" class="s10 w2" cx="309.9" cy="851.6" rx="57.9" ry="67.9"/>
 				<path id="&lt;Path&gt;" class="s9" d="m219.7 885.3c-11.2-80.2 21.8-126.7 68.3-139.5 46.6-12.9 113.5 15.2 117 95.7q3.8 89.8-73.4 118.3"/>
 				<ellipse id="&lt;Path&gt;" class="s9" cx="309.9" cy="851.6" rx="57.9" ry="67.9"/>
-				<ellipse id="&lt;Path&gt;" class="s10" cx="893.4" cy="851.6" rx="57.9" ry="67.9"/>
+				<ellipse id="&lt;Path&gt;" class="s10 w2" cx="893.4" cy="851.6" rx="57.9" ry="67.9"/>
 				<ellipse id="&lt;Path&gt;" class="s9" cx="893.4" cy="851.6" rx="57.9" ry="67.9"/>
 				<path id="&lt;Path&gt;" class="s9" d="m759.6 886.6v-54.8c0-74.3 60.2-134.5 134.5-134.5 74.2 0 134.5 60.2 134.5 134.5l4.1 56.2"/>
 				<path id="&lt;Path&gt;" class="s9" d="m174.7 851.3v-19.5c0-74.3 60.2-134.5 134.5-134.5 74.3 0 134.5 60.2 134.5 134.5l4.2 60"/>
@@ -65,18 +111,18 @@
 				<path id="&lt;Path&gt;" class="s9" d="m1454.2 857.4h-390.9"/>
 				<path id="&lt;Path&gt;" class="s9" d="m1508 959.8h-1456.2"/>
 			</g>
-			<path id="&lt;Path&gt;" class="s1" d="m318.5 375.7q-1.1-40.3 34.9-33.6-3-30.7 26.8-33.1 29.7-2.4 36 27 28.3-14.4 35.8 16 35.8-11.1 39.7 23.7z"/>
-			<path id="&lt;Path&gt;" class="s1" d="m1331.5 432.7q-1.1-40.3 34.9-33.6-3-30.7 26.8-33.1 29.7-2.4 36 27 28.3-14.4 35.8 16 35.8-11.1 39.7 23.7z"/>
+			<path id="&lt;Path&gt;" class="s1 w3" d="m318.5 375.7q-1.1-40.3 34.9-33.6-3-30.7 26.8-33.1 29.7-2.4 36 27 28.3-14.4 35.8 16 35.8-11.1 39.7 23.7z"/>
+			<path id="&lt;Path&gt;" class="s1 w3" d="m1331.5 432.7q-1.1-40.3 34.9-33.6-3-30.7 26.8-33.1 29.7-2.4 36 27 28.3-14.4 35.8 16 35.8-11.1 39.7 23.7z"/>
 			<g id="&lt;Group&gt;">
-				<circle id="&lt;Path&gt;" class="s1" cx="788.7" cy="395.6" r="27.7"/>
+				<circle id="&lt;Path&gt;" class="s1 w1" cx="788.7" cy="395.6" r="27.7"/>
 				<g id="&lt;Group&gt;">
-					<path id="&lt;Compound Path&gt;" class="s1" d="m881.9 285l-13 22.5c-23.6-13.6-51-21.5-80.2-21.5-29.2 0-56.6 7.9-80.2 21.5l-13-22.5c27.4-15.9 59.3-25 93.2-25 34 0 65.8 9.1 93.2 25z"/>
+					<path id="&lt;Compound Path&gt;" class="s1 w1" d="m881.9 285l-13 22.5c-23.6-13.6-51-21.5-80.2-21.5-29.2 0-56.6 7.9-80.2 21.5l-13-22.5c27.4-15.9 59.3-25 93.2-25 34 0 65.8 9.1 93.2 25z"/>
 				</g>
 				<g id="&lt;Group&gt;">
-					<path id="&lt;Compound Path&gt;" class="s1" d="m915 237.7l-17.6 22.5c-32-18.4-69.1-29.1-108.7-29.1-39.6 0-76.7 10.7-108.7 29.1l-17.6-22.4c37.2-21.6 80.3-33.9 126.3-33.9 46 0 89.2 12.3 126.3 33.8z"/>
+					<path id="&lt;Compound Path&gt;" class="s1 w1" d="m915 237.7l-17.6 22.5c-32-18.4-69.1-29.1-108.7-29.1-39.6 0-76.7 10.7-108.7 29.1l-17.6-22.4c37.2-21.6 80.3-33.9 126.3-33.9 46 0 89.2 12.3 126.3 33.8z"/>
 				</g>
 				<g id="&lt;Group&gt;">
-					<path id="&lt;Compound Path&gt;" class="s1" d="m857.3 330.8l-13.1 22.8c-17.3-6.4-36-9.9-55.5-9.9-19.5 0-38.2 3.5-55.5 9.9l-13.1-22.8c21.2-8.4 44.4-13 68.6-13 24.3 0 47.4 4.6 68.6 13z"/>
+					<path id="&lt;Compound Path&gt;" class="s1 w1" d="m857.3 330.8l-13.1 22.8c-17.3-6.4-36-9.9-55.5-9.9-19.5 0-38.2 3.5-55.5 9.9l-13.1-22.8c21.2-8.4 44.4-13 68.6-13 24.3 0 47.4 4.6 68.6 13z"/>
 				</g>
 			</g>
 		</g>
