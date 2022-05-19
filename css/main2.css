@@ -646,19 +646,21 @@ ul,ol{
   display: flex;
   justify-content: center;
 }
-#path516,#path522{
+/* #path516,#path522{
   animation: bird1 3s linear infinite;
   animation-direction: normal;
 }
 #path518,#path520{
   animation: bird1 3s linear infinite;
   animation-direction:alternate;
-}
+} */
+
+/* old */
 /* #Group_6,#Group_2,#Group_3,#Group_5,#Group_4,#Group_1{
   animation: dots 4s linear infinite;
 } */
-
-#Group_6,#Group_2,#Group_3,#Group_5,#Group_4,#Group_1,#path492,#path496,#path500, #path512, #path508, #path504,#path276,#path274,#path490,#path494,#path506,#path498,#path502,#path280,#path514,#path510{
+/* old finish */
+/* #Group_6,#Group_2,#Group_3,#Group_5,#Group_4,#Group_1,#path492,#path496,#path500, #path512, #path508, #path504,#path276,#path274,#path490,#path494,#path506,#path498,#path502,#path280,#path514,#path510{
   transform-box: fill-box;
   transform-origin: top;
   animation: dots 4s linear infinite;
@@ -689,7 +691,7 @@ ul,ol{
   } */
 }
 
-#path18{
+/* #path18{
   animation: sun1 3s linear infinite ;
   animation-delay: 2s;
 }
@@ -700,11 +702,11 @@ ul,ol{
 #path14{
   animation: sun3 3s linear infinite ;
   animation-delay: 6s;
-}
+} */
 /* #path20{
   animation: sun4 3s ease infinite ;
 } */
-#path64,#path66{
+/* #path64,#path66{
   transform-box: fill-box;
   transform-origin: bottom;
   animation: lefttree 3s linear infinite ;;
@@ -730,12 +732,12 @@ ul,ol{
   0%{
     transform: translate3d(10rem,0px,0px);
     opacity: 0.5;
-  }
+  } */
   /* 5%{
     opacity: 1;
   }*/
-  50%{
-    opacity: 1;
+  /* 50%{
+    opacity: 1; */
   }/*
   94%{
     opacity: 0.8;
@@ -743,13 +745,13 @@ ul,ol{
   95%{
     opacity: 0; 
   }*/
-  100%{
+  /* 100%{
     transform: translate3d(25rem,0px,0px);
     opacity: 0;
   }
-}
+} */
 
-@keyframes lefttree {
+/* @keyframes lefttree {
   0%{
     transform: rotate(3deg);
   }
@@ -792,8 +794,8 @@ ul,ol{
   }
   100%{
     opacity: 0;
-  }
-}
+  } */
+} */
 /* @keyframes sun4 {
   0%{
     opacity: 0;
