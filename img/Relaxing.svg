@@ -74,8 +74,6 @@
   animation: text 7s linear infinite ;
   animation-delay: 7s;
 }
-
-
   @keyframes text {
   0% {
     letter-spacing: -0.5em;
