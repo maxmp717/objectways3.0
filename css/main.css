@@ -392,7 +392,7 @@ h6 {
 .dropdown-menu {
   width: 280px;
   padding: 30px 50px 30px 35px;
-  margin-left: 20px;
+  margin: 0px 0px 0 20px;
   background-color: #fff;
   border: 1px solid #FFD1C3;
   box-shadow: 0 0 26px 5px rgb(255 112 67 / 20%);
@@ -432,6 +432,10 @@ h6 {
   margin: 15px 44px;
 }
 
+.home-banner{
+  display: contents;
+}
+
 .home-title>h1 {
   font: 400 60px/1.22 'Zilla Slab', serif !important;
 }
@@ -448,7 +452,7 @@ h6 {
   position: relative;
   text-align: center;
   width: 100%;
-  margin: 0 0 20px 0;
+  /* margin: 0 0 20px 0; */
 }
 
 .partner-title div {
@@ -490,7 +494,7 @@ h6 {
 .logo img {
   height: auto;
   width: 100%;
-  max-width: 115px;
+  max-width: 150px;
 }
 
 .sol-title>h2,
@@ -832,15 +836,16 @@ ul {
 }
 
 .card-img-relax {
-  width: 46rem;
+  width: 100%;
   height: auto;
+  max-width: 55rem;
 }
 
 .relax,
 .customer {
   background-color: #fffef9;
-  margin-top: 5rem;
-  margin-bottom: 8rem;
+  margin-top: 2rem;
+  margin-bottom: 5rem;
 }
 
 .customer {
@@ -954,7 +959,7 @@ ul {
 }
 
 .our_process {
-  padding: 75px 0;
+  padding: 0 0 75px 0;
 }
 
 .process-img>img {
@@ -1172,6 +1177,9 @@ ol {
   -o-transition: all 0.3s linear;
   transition: all 0.3s linear;
 }
+.slide-controls .arrow-btn:hover .icon{
+  color: #3f3350;
+}
 
 .slide-controls .arrow-btn+.arrow-btn {
   margin-left: 46px;
@@ -1208,12 +1216,16 @@ ol {
 .data-logo{
   padding: 0 0 25px 0;
 }
-.case-title-data>h2 , .case-title-data>div>h2 {
+.case-title-data>h2  {
   font: 400 60px/1.22 'Zilla Slab', serif ;
 }
+/* .case-title-data>div>h2 */
 /* Keep Last Always */
+.relax-text>h2{
+  font: 400 45px/1.22 'Zilla Slab', serif ;
+}
 .relax-text>p{
-  font: 400 20px/1.8 'Inter', serif;
+  font: 400 16px/1.8 'Inter', serif;
 }
 
 /* datalabeling page */
