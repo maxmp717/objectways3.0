@@ -29,7 +29,7 @@
 		#front-wheel,#back-wheel{
 			transform-box:fill-box;
 			transform-origin:center;
-			animation: wheel 2s linear infinite;
+			animation: wheel 1000ms linear infinite;
 		}
 		 .sun3{
  		 animation: sun1 3s linear infinite ;
