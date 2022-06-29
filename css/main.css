@@ -1268,3 +1268,21 @@ ol {
             animation-timing-function: ease-out;
   }
 }
+/* Data_sourcing */
+.card-img-bespoke {
+  width: 100%;
+  height: auto;
+  max-width: 30rem;
+}
+.bespoke-text>h2{
+  font: 400 50px/1.22 'Zilla Slab', serif ;
+}
+.bespoke-text>p{
+  font: 400 16px/1.8 'Inter', serif;
+}
+.card-bespoke{
+  background-color: #FFD741;
+  margin-top: 15rem !important;
+  margin-bottom: 15rem;
+  padding-top: 1rem;
+}
