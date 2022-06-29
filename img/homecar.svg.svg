@@ -161,7 +161,7 @@
  .c1{
   transform-box: fill-box;
   transform-origin: top;
-  animation: cloud 5s linear infinite ;;}
+  animation: cloud 5s linear infinite ;}
 
 @keyframes cloud {
   0%{
