@@ -922,7 +922,7 @@ ul {
   margin: -1rem 0 -5rem 0;
   font: 400 19px/1.2 'Zilla Slab', sans-serif;
 }
-
+.Our-sourcing,
 .Our-service,
 .Nlp,
 .Other-Service,
@@ -1422,11 +1422,28 @@ textarea{
   font: 400 50px/1.22 'Zilla Slab', serif ;
 }
 .bespoke-text>p{
-  font: 400 16px/1.8 'Inter', serif;
+  font: 400 20px/1.8 'Inter', serif;
 }
 .card-bespoke{
   background-color: #FFD741;
   margin-top: 15rem !important;
   margin-bottom: 15rem;
   padding-top: 1rem;
+}
+.card-img-audio{
+  width: 100%;
+  height: auto;
+  max-width: 40rem;
+}
+.card-img-image{
+  width: 100%;
+  height: auto;
+  max-width: 55rem;
+  /* padding-top: 10px; */
+}
+.Image-Sourcing{
+   padding: 60px 0px 60px 0px;  
+}
+.Our-sourcing{
+  padding:0px 40px 0px 40px;
 }
