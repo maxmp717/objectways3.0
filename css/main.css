@@ -1379,7 +1379,7 @@ textarea{
 }
 }
 .data-source{
-  width: 43em;
+  width: 35em;
 }
 
 /* datalabeling page */
@@ -1423,6 +1423,9 @@ textarea{
   }
 }
 /* Data_sourcing */
+.data-title1 {
+  font: 400 59px/1.22 'Zilla Slab', serif;
+}
 .card-img-bespoke {
   width: 100%;
   height: auto;
@@ -1465,4 +1468,237 @@ textarea{
 }
 .sourcing-ph{
   font: 400 19px/1.2 'Zilla Slab', sans-serif;
+}
+.content-img{
+  width: 100%;
+  height: auto;
+  max-width: 40rem;
+}
+.data-title-1 {
+  font: 400 40px/1.22 'Zilla Slab', serif;
+  padding-top: 7rem;
+}
+/* content moderation */
+.cm-img {
+  width: 100%;
+  height: auto;
+  max-width: 55rem;
+}
+.grid_icon{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 10px 0px 10px 0px;
+}
+.cms {
+  width: 70%;
+  height: auto;
+}
+ .grid_title{
+display: flex;
+justify-content:center;
+padding: 10px 0px 10px 0px;
+}
+.grid_content>p{
+  font: 400 15px/1.8 'Inter', serif;
+  padding: 10px 0px 30px 0px;
+  margin: 0px 0px 0px 20px;
+}
+.gif img {
+  width: 250px;
+  height: 250px;
+}
+.gif {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.cm-line{
+  font-size: 2em;
+  position: absolute;
+  display: block;
+  top: 172px;
+  left: -55px;
+  z-index: 0;
+ color: #6A7299;
+  animation: myAnim 0.5s ease-in-out infinite forwards;
+}
+@keyframes myAnim {
+  0%{
+    transform: translateX(0px) ;
+  }
+  100%{
+    transform: translateX(20px);
+  }
+}
+@media only screen and (max-width: 990px) {
+
+ .cm-line:nth-child(2){
+    display: none;
+  }
+}
+
+.usecase-text>li {
+display: flex;
+justify-content: center;
+  text-align: center;
+  color: var(--purple);
+  font: 500 28px/1 'Inter', serif;
+}
+.usecase-top{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.usecase-img{
+  width: 60%;
+  height: auto;
+  display: flex;
+  justify-content: center;
+}
+.bg-green{
+  background-color: #00a4a7;
+}
+.bg-orange{
+  background-color: #fc6140;
+}
+.bg-yellow{
+  background-color:#ffd740 ;
+}
+.text-color_w,h4,h5{
+  color: white;
+  font: 500 19px/1.35 'Zilla Slab', serif;
+}
+.text-color_w,p{
+  font: 400 18px/1.35 'Zilla Slab', serif;
+}
+.usecase-text>li>h2{
+color:#fc6140;
+padding: 5px 0px 8px 0px;
+}
+.button-usecase{
+  display: inline-flex;
+  padding: 30px 30px;
+  border-radius: 10px;
+  background-color: #ff7043;
+  color: #fff;
+  font-size: 24px;
+  line-height: 1;
+  box-shadow: 0 0 26px 5px rgb(255 112 67 / 30%);
+  position: relative;
+  border: none;
+}
+  .button-usecase:hover {
+    color: var(--purple);
+    background-color: var(--white);
+  
+}
+.usecasect-img{
+  width: 30%;
+  height: auto;
+  display: flex;
+  justify-content: center;
+}
+.section-5{
+  padding: 10px 0px 50px 0px;
+}
+.cm_process{
+  padding-top: 70px;
+  padding-bottom: 70px;
+}
+/* securitypage css */
+.security-title {
+  font: 400 64px/1.22 'Zilla Slab', serif;
+  padding-top: 12rem;
+}
+.security-content{
+  padding: 0rem 11rem 0rem 11rem;
+  display:flex;
+  justify-content: flex-start;
+}
+.security-content1{
+  padding: 0rem 12rem 0rem 12rem;
+  display:flex;
+  justify-content: flex-start;
+}
+.securitywrap{
+    height: 23em;
+    width: 31em;
+    /* padding: 0 50px; */
+}
+.case-title-s>h3 {
+  font: 400 26px/1.22 'Zilla Slab', serif!important ;
+}
+  .check1{
+    list-style: none;
+  }
+  ul.check1 li + li {
+    margin-top: 18px;
+  }
+  
+  
+  ul.check1 li{
+      /* line-height: 2.75;*/
+      font: 400 16px/1.8 'Inter', serif; 
+      padding-left: 60px;
+      position: relative;
+      background: url(../img/checkmark.svg) 6px 12px no-repeat;
+      background-size: 20px auto;
+  }
+  .security_video{
+    width: 300px;
+    height: 300px;
+    /* max-width: 1000px; */
+    display: flex;
+    justify-content: center;
+    /* background-image: url('img/security/computerimg.svg') no-repeat ; */
+    
+  }
+#back{
+  min-width: 20rem;
+  background-image: url('img/security/computerimg.svg') no-repeat !important;
+    
+}
+#agents-how.computer{
+    width: 100%;
+    max-width: 1104px;
+    margin: 0 auto;
+    position: relative;
+}
+#agents-how .sizer {
+  visibility: visible;
+}
+.sizer {
+  /* visibility: hidden; */
+}
+.sized img {
+  width: 100%;
+  height: auto;
+  display: block;
+  position: relative;
+}
+#agents-how .computer .screen-wrap {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  left: 0;
+  top: 0;
+  transform-origin: left top;
+}
+#agents-how .computer .screen-wrap .screen {
+  position: absolute;
+  left: 0;
+  top: 0;
+  left: 84px;
+  top: 10px;
+  width: 936px;
+  height: 540px;
+  border-radius: 26px 26px 0px 0px;
+  overflow: hidden;
+}
+.spacer {
+  width: 100%;
+  height: auto;
+  display: block;
+  position: relative;
 }
